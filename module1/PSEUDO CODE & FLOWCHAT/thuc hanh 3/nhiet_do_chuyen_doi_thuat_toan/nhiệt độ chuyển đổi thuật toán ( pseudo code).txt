@@ -1,5 +1,0 @@
-Begin 
-   Input c
-   F = (9*C)/5+32
-   Díplay F
-Eng.

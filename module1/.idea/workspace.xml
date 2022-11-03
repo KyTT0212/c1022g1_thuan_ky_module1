@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="" />
+    <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/.$mô tả thuật toán chuyển đổi tiền tệ (flowchat).drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/Mô tả thuật toán chuyển đổi tiền tệ (pseudo code).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/mô tả thuật toán chuyển đổi tiền tệ (flowchat).drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/thuat_toan_co_cau_truc_dk/Mô tả thuật toán có cấu trúc điều kiện (pseudo code).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/thuat_toan_co_cau_truc_dk/Mô tả thuật toán có cấu trúc điều kiện(flowchat).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tim_gtln/Mô tả thuật toán tìm kiếm lớn nhất giá trị trong 3 số (PSEUDO CODE).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tim_gtln/mô tả thuật toán tìm giá trị lớn nhất trong 3 số (flowchat).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tinh_diem_tb/mô tả thuật toán tính điểm trung bình ( pseudo code).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tinh_diem_tb/mô tả thuật toán tính điểm trung bình (flowchat).drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/bai 4 git &amp; html/tạo danh sách.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/Thuật toán trò chơi đếm số ( pseudo code).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/Thuật toán trò chơi đếm số (flowchat).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/nhiệt độ chuyển đổi thuật toán ( pseudo code).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/nhiệt độ chuyển đổi thuật toán (flowchat).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_4_git_html/bai_tap/bai 4 git &amp; html/tạo danh sách.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_4_git_html/bai_tap/bai 4 git &amp; html/tạo trang cv cá nhân.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2H1LUgfcwxNuXNt1F13lYLpSRWU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,19 +58,24 @@
       <recent name="D:\codegym\module1\PSEUDO CODE &amp; FLOWCHAT\bai tap 4" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.aaa.html">
+  <component name="RunManager" selected="JavaScript Debug.tạo trang cv cá nhân.html">
     <configuration name="aaa.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/bai 4 git &amp; html/aaa.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="tao danh sach.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/tao danh sach.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="tạo trang cv cá nhân.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/bai 4 git &amp; html/tạo trang cv cá nhân.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.tao danh sach.html" />
       <item itemvalue="JavaScript Debug.aaa.html" />
+      <item itemvalue="JavaScript Debug.tạo trang cv cá nhân.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.tạo trang cv cá nhân.html" />
         <item itemvalue="JavaScript Debug.aaa.html" />
         <item itemvalue="JavaScript Debug.tao danh sach.html" />
       </list>
@@ -65,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667447659165</updated>
       <workItem from="1667447660338" duration="254000" />
-      <workItem from="1667447926681" duration="2140000" />
+      <workItem from="1667447926681" duration="7122000" />
+      <workItem from="1667464959950" duration="1035000" />
     </task>
     <servers />
   </component>

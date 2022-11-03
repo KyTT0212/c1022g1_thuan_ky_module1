@@ -1,8 +1,0 @@
-Begin 
-   N là số được sinh số ngầu nhiên trong khoảng 0-9
-   Nhập vào M
-   IF (N==M)
-       Display "đúng"
-   ELSE
-       Display "sai"
-End.

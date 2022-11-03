@@ -1,5 +1,0 @@
-Start
-   Input a
-   s=a*23000
-   Output s
-end.
