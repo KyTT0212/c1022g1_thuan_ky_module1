@@ -1,0 +1,13 @@
+Begin
+    Input diem 100
+    IF diem >= 75 
+          output "loai A"
+    ELSE IF diem >= 60 and diem < 75
+          output "loai B"
+    ELSE IF diem >= 45 and diem < 60
+          output "loai C"
+    ELSE IF diem >= 35 and diem < 45 
+          output "loai D"
+    ELSE IF diem <35
+          output "loai E"
+END.
