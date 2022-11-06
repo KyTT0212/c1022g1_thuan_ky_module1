@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/from đăng kí học viên.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/taạo from lấy survey khách hàng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/tạo from đơn giản.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/tạo giao dien from dăng kí người dùng.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/.$mô tả thuật toán chuyển đổi tiền tệ (flowchat).drawio.dtmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/Mô tả thuật toán chuyển đổi tiền tệ (pseudo code).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/chuyen_doi_tien_te/mô tả thuật toán chuyển đổi tiền tệ (flowchat).drawio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/thuat_toan_co_cau_truc_dk/Mô tả thuật toán có cấu trúc điều kiện (pseudo code).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/thuat_toan_co_cau_truc_dk/Mô tả thuật toán có cấu trúc điều kiện(flowchat).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tim_gtln/Mô tả thuật toán tìm kiếm lớn nhất giá trị trong 3 số (PSEUDO CODE).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tim_gtln/mô tả thuật toán tìm giá trị lớn nhất trong 3 số (flowchat).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tinh_diem_tb/mô tả thuật toán tính điểm trung bình ( pseudo code).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 3/tinh_diem_tb/mô tả thuật toán tính điểm trung bình (flowchat).drawio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/bai 4 git &amp; html/tạo danh sách.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/Thuật toán trò chơi đếm số ( pseudo code).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/Thuật toán trò chơi đếm số (flowchat).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/nhiệt độ chuyển đổi thuật toán ( pseudo code).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSEUDO CODE &amp; FLOWCHAT/thuc hanh 3/nhiet_do_chuyen_doi_thuat_toan/nhiệt độ chuyển đổi thuật toán (flowchat).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_4_git_html/bai_tap/bai 4 git &amp; html/tạo danh sách.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_4_git_html/bai_tap/bai 4 git &amp; html/tạo trang cv cá nhân.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/111.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/taọ from cơ bản.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_html_from_&amp;_table/taọ from cơ bản.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +84,12 @@
       <workItem from="1667447660338" duration="254000" />
       <workItem from="1667447926681" duration="7122000" />
       <workItem from="1667464959950" duration="1035000" />
+      <workItem from="1667532922264" duration="4572000" />
+      <workItem from="1667550325819" duration="21991000" />
+      <workItem from="1667637999263" duration="19887000" />
+      <workItem from="1667696445000" duration="1061000" />
+      <workItem from="1667697691016" duration="552000" />
+      <workItem from="1667698261498" duration="4570000" />
     </task>
     <servers />
   </component>
@@ -101,9 +97,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667448407196">
+    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667568433035">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1667448407196" />
+    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1667568433035" />
+    <state x="406" y="326" key="FileChooserDialogImpl" timestamp="1667650956433">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="406" y="326" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1667650956433" />
+    <state x="718" y="199" key="run.anything.popup" timestamp="1667641676529">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="718" y="199" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1667641676529" />
   </component>
 </project>
