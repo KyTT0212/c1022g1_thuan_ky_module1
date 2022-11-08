@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th><label for="amount">Amount</label></th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="amount" name="tien_te" ></td>
+
+            <td>
+                <select id="From">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+
+            <td>
+                <select  id="To">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+
+            <td>
+                <input type="submit" id="subit" onclick="chuyenTien()" value="Convert">
+            </td>
+
+        </tr>
+    </table>
+<p id="ketQua"></p>
+
+</form>
+
+
+</body>
+<script src="chuyen_doi_tien_te.js">
+
+</script>
+</html>
