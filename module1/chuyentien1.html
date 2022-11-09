@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<table>
+    <tr>
+        <th><label for="amount">Amount</label></th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" id="amount" name="chuyentien"></td>
+
+        <td>
+            <select id="From">
+            <option value="">USD</option>
+            <option value="">VND</option>
+            </select>
+        </td>
+        <td>
+        <select id="To">
+            <option value="">VND</option>
+            <option value="">USD</option>
+        </select>
+        </td>
+        <td><input type="submit" name="chuyentien" value="convert"> </td>
+    </tr>
+</table>
+
 </body>
 </html>
