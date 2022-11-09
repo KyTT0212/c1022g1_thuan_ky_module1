@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_8_cau_truc_diu_kien_1/nhap_diem_cuoi_module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_8_cau_truc_diu_kien_1/nhập điểm cuối module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài1/cấu trúc đk01_bài1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài2/cấu truc đk02_bài2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài4/cấu trúc đk01_bài4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài5/cấu trúc đk01_bài5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài6/cấu trúc đk01_bài6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/tính chỉ số cân nặng của cơ thể/tính chỉ số cân nặng của cơ thể.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyentien1.html" beforeDir="false" afterPath="$PROJECT_DIR$/chuyentien1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyentien1.js" beforeDir="false" afterPath="$PROJECT_DIR$/chuyentien1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_7_bien_kieu_du_lieu_toan_tu/CHUYỂN ĐỔI TIỀN TỆ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_7_bien_kieu_du_lieu_toan_tu/chuyen_doi_tien_te.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_7_bien_kieu_du_lieu_toan_tu/ung_dung_mt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_7_bien_kieu_du_lieu_toan_tu/ứng dụng mt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_8_cau_truc_diu_kien_1/nhap_diem_cuoi_module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_8_cau_truc_diu_kien_1/nhập điểm cuối module.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -96,7 +105,7 @@
       <workItem from="1667835945396" duration="8254000" />
       <workItem from="1667869000198" duration="18917000" />
       <workItem from="1667921521150" duration="1841000" />
-      <workItem from="1667955660807" duration="1745000" />
+      <workItem from="1667955660807" duration="26157000" />
     </task>
     <servers />
   </component>
@@ -116,6 +125,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="612" y="110" key="RollbackChangesDialog/0.0.1536.816@0.0.1536.816" timestamp="1667887431909" />
+    <state x="745" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667999475467">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="745" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1667999475467" />
     <state x="718" y="199" key="run.anything.popup" timestamp="1667641676529">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

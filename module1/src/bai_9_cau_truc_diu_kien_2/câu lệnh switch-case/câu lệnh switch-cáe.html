@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p><h2>Kiểm tra số ngày trong tháng</h2></p>
+    <p>
+            <input type="number" min="1" max="12" id="thangg"style="width: 150px" placeholder="Nhập tháng"  >
+            <button onclick="thang()">Check</button>
+        <div id="laythang"></div>
+    </p>
+
+<script>
+    function thang(){
+        //let month= +prompt("thangg")
+        let month= +document.getElementById('thangg').value
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert('Tháng'+month+'có 31 ngày.')
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert('Tháng'+month+'có 30 ngày.')
+                break;
+            case 2:
+                alert('Tháng'+month+'có 28 hoặc ngày.')
+                break;
+            default:
+                alert('Giá trị không tồn tại.')
+
+        }
+    }
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

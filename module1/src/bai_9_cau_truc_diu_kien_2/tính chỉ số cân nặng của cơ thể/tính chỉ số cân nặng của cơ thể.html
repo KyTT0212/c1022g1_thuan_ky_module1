@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h1>Tính chỉ số cân nặng</h1></p>
+<p>
+    <label for="kg" >Nhập cân nặng: (kg)</label>
+    <input type="text" id="kg">
+</p>
+<p>
+    <label for="m" >Nhập chiều cao: (m) </label>
+    <input type="text" id="m">
+</p>
+<p>
+    <button onclick="kiem_tra()">Kiểm tra</button>
+</p>
+
+<script>
+    function kiem_tra() {
+        let can_nang= +document.getElementById('kg').value
+        let chieu_cao= +document.getElementById('m').value
+        let bmi=(can_nang)/(chieu_cao*2)
+
+
+        if (bmi<18.5)
+            alert("Bạn bị gầy.")
+        else if (bmi<25.0)
+           alert("Bạn bình thường.")
+        else if (bmi<30.5)
+            alert("Bạn bị thừa cân.")
+        else
+            alert("Bạn bị béo phì.")
+    }
+</script>
+
+
+</body>
+</html>
