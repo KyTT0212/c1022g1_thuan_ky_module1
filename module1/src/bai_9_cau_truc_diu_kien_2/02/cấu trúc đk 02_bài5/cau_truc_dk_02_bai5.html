@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h3>Tính diện tích tam giác vuông khi biết 02 cạnh kề a, b.</h3></p>
+<input type="number" id="canha" placeholder="Nhập cạnh a">
+<p><input type="number" id="canhb" placeholder="Nhập cạnh b"></p>
+<button onclick="tGV()">Kết quả</button>
+<p id="dientich"></p>
+
+<script>
+    function tGV(){
+        let a=+document.getElementById('canha').value
+        let b=+document.getElementById('canhb').value
+        let S=0.5*a*b
+        document.getElementById('dientich').innerHTML=" KẾT QUẢ =" +S
+    }
+
+</script>
+
+
+
+
+</body>
+</html>

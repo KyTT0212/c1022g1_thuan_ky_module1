@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h1>Giải phương trình bậc 1.</h1></p>
+<p>Nhập các tham số của phương trình ax + b = 0</p>
+<input type="text" id="nhapa" placeholder="Nhập giá trị a">
+<p><input type="text" id="nhapb" placeholder="Nhập giá trị b"></p>
+<p><button onclick="kQ()">Kết quả</button></p>
+<p id="giatri"></p>
+
+
+<script>
+    function kQ(){
+        let a= +document.getElementById('nhapa').value
+        let b= +document.getElementById('nhapb').value
+        let xValue= -b/a
+
+
+        if(a==0 && b==0){
+            alert( 'phương trình có vô số nghiệm')
+        }
+        else if (a==0 && b!=0){
+            alert('phương trình vô nghiệm.')
+        }
+        else {
+            document.getElementById('giatri').innerHTML="Phương trình có nghiệm duy nhất x=" + xValue
+        }
+
+
+
+
+    }
+
+</script>
+
+</body>
+</html>

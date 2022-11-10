@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> Tính diện tích hình chữ nhật khi biết 2 cạnh a, b.</p>
+<input type="number" id="canha" placeholder="Nhập cạnh a ">
+<input type="number" id="canhb" placeholder="Nhập cạnh b ">
+<button onclick="shcn()">Nhập</button>
+
+<script>
+    function shcn() {
+        let a= document.getElementById('canha').value
+        let b=document.getElementById('canhb').value
+        let S=a*b
+        alert('Diện tích hình chữ nhật là:'+S )
+
+    }
+</script>
+
+</body>
+</html>

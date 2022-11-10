@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="" />
+    <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài8/cau_truc_dk02_bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài1/cấu trúc đk01_bài1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài2/cấu truc đk02_bài2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài4/cấu trúc đk01_bài4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài5/cấu trúc đk01_bài5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài6/cấu trúc đk01_bài6.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +99,8 @@
       <workItem from="1667835945396" duration="8254000" />
       <workItem from="1667869000198" duration="18917000" />
       <workItem from="1667921521150" duration="1841000" />
-      <workItem from="1667955660807" duration="26499000" />
+      <workItem from="1667955660807" duration="29722000" />
+      <workItem from="1668043005367" duration="21867000" />
     </task>
     <servers />
   </component>
@@ -98,10 +108,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667842311389">
+    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1668054246426">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1667842311389" />
+    <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1668054246426" />
     <state x="406" y="326" key="FileChooserDialogImpl" timestamp="1667650956433">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

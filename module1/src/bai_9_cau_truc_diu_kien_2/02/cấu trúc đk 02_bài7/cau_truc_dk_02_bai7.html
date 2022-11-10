@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h1>Giải phương trình bậc hai</h1></p>
+<p>Nhập các tham số của phương trình ax^2 + bx + c = 0</p>
+<p><input type="text" id="nhapa" placeholder="Nhập a"></p>
+<p><input type="text" id="nhapb" placeholder="Nhập b"></p>
+<p><input type="text" id="nhapc" placeholder="Nhập c"></p>
+<p><button onclick="kQ()">Kết quả</button> </p>
+<p id="giatri"></p>
+
+
+<script>
+    function kQ(){
+        let a= document.getElementById('nhapa').value
+        let b= document.getElementById('nhapb').value
+        let c= document.getElementById('nhapc').value
+        if (a==0){
+            alert('Hệ số a phải khác 0')
+        }else if ((a==""||b==""||c=="")){
+            alert('Bạn đã nhập thiếu giá trị ')
+        }
+        let kqua = (b*b) - (4*a*c)
+        let d=-b/(2*a)
+        let y=(-b+ Math.sqrt(kqua))/(2*a)
+        let z=(-b- Math.sqrt(kqua))/(2*a)
+
+        if (kqua <0){
+            alert(' phương trình vô nghiệm.')
+        } else if (kqua==0){
+            document.getElementById('giatri').innerHTML="phương trình có nghiệm kép x1 = x2 =" +d
+        } else {
+            document.getElementById('giatri').innerHTML="phương trình có hai nghiệm x1 ="+y+"và x2 ="+z
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
