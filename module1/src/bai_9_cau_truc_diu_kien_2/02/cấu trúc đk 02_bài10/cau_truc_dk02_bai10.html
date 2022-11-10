@@ -7,17 +7,7 @@
 <body>
 <p><h1>Viết chương trình tính giá điện.</h1></p>
 <input type="text" style="width: 330px" id="sodien" placeholder="Nhap vao so dien cua ban (kWh): ">
-<p>
-    <select>
-        <option value="" id="b1">bậc 1(0 đến 50kWh)</option>
-        <option value="" id="b2">bậc 2 (51 đến 100kWh)</option>
-        <option value="" id="b3">bậc 3(101 đến 200 kWh)</option>
-        <option value="" id="b4">bậc 4 (201 đến 300 kWh)</option>
-        <option value="" id="b5">bậc 5(301 đến 400 kWh)</option>
-        <option value="" id="b6">bậc 6(401 kWh trở lên)</option>
-    </select>
-</p>
-<p><button onclick="tienDien">Kết quả</button> </p>
+<p><button onclick="tienDien()">Kết quả</button> </p>
 <p id="tinh" ></p>
 
 <script>
@@ -27,34 +17,30 @@
         if(x==0){
             document.getElementById('tinh').innerHTML="Vui long nhap lai So Dien."
         }
-        let a=+document.getElementById(b1).value
-        let b=+document.getElementById(b2).value
-        let c=+document.getElementById(b3).value
-        let d=+document.getElementById(b4).value
-        let e=+document.getElementById(b5).value
-        let h=+document.getElementById(b6).value
+        let b1=1678
+        let b2=1734
+        let b3=2014
+        let b4=2536
+        let b5=2834
+        let b6=2927
 
         let tienDien;
 
         if (x>400) {
-            tienDien = 50 * a * 1.678 + (50 * b * 1.7314) + (100 * c * 2.014) + (100 * d * 2.536) + (100 * e * 2.834) + ((x - 400) * h * 2.927)
-            document.getElementById('tinh').innerHTML = 'so tien dien la:' + tienDien
+            tienDien = 50*b1+(50*b2)+(100*b3)+(100*b4)+(100*b5)+((x-400)*b6)
         }else if (x<=400){
-            tienDien=50*a*1.678+(50*b*1.7314)+(100*c*2.014)+(100*d*2.536)+((x-300)*e*2.834)
-            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
+            tienDien=50*b1+(50*b2)+(100*b3)+(100*b4)+((x-300)*b5)
         }else if (x<=300){
-            tienDien=50*a*1.678+(50*b*1.7314)+(100*c*2.014)+((x-200)*d*2.536)
-            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
+            tienDien=50*b1+(50*b2)+(100*b3)+((x-200)*b4)
         }else if (x<=200){
-            tienDien=50*a*1.678+(50*b*1.7314)+((x-100)*c*2.014)
-            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
+            tienDien=50*b1+(50*b2)+((x-100)*b3)
         }else if (x<=100){
-            tienDien=50*a*1.678+((x-50)*b*1.7314)
-            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
-        }else if (x<=50){
-            tienDien=x*a*1.678
-            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
+            tienDien=50*b1+((x-50)*b2)
+        }else if (x<=50) {
+            tienDien = x * b1
         }
+            document.getElementById('tinh').innerHTML='so tien dien la:'+tienDien
+
 
     }
 

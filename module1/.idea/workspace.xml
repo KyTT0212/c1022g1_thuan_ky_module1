@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài8/cau_truc_dk02_bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài9/cau_truc_dk02_bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài1/cấu trúc đk01_bài1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài2/cấu truc đk02_bài2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài4/cấu trúc đk01_bài4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài5/cấu trúc đk01_bài5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/luyện tập cấu trúc đk 01-bài6/cấu trúc đk01_bài6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài12/cau_truc_dk_02_bai12.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài12/cau_truc_dk_02_bai12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <workItem from="1667869000198" duration="18917000" />
       <workItem from="1667921521150" duration="1841000" />
       <workItem from="1667955660807" duration="29722000" />
-      <workItem from="1668043005367" duration="21867000" />
+      <workItem from="1668043005367" duration="28686000" />
     </task>
     <servers />
   </component>
