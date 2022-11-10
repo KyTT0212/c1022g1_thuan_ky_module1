@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a= +prompt('Thu nhập tháng(triệu)')
+    let x;
+
+
+    if (a>80){
+        x=a*0.35+18.15
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>52 && a<=80){
+        x=a*0.30+9.75
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>32 && a<=85){
+        x=a*0.25+4.75
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>18 && a<=32){
+        x=a*0.20+1.95
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>10 && a<=18){
+        x=a*0.15+0.75
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>5 && a<=10){
+        x=a*0.1+0.25
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else if (a>0 && a<=5){
+        x=a*0.05
+        alert('thuế thu nhập cá nhân là:'+x)
+    }else {
+        alert('Giá trị không hợp lệ.')
+    }
+</script>
+
+</body>
+</html>
