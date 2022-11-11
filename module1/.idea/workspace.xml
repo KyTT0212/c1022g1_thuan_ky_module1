@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài9/cau_truc_dk02_bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/demo_bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/sinh_bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/su_dung_vong_lap+while.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài10/cau_truc_dk02_bai10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài12/cau_truc_dk_02_bai12.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài12/cau_truc_dk_02_bai12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -96,7 +103,7 @@
       <workItem from="1667869000198" duration="18917000" />
       <workItem from="1667921521150" duration="1841000" />
       <workItem from="1667955660807" duration="29722000" />
-      <workItem from="1668043005367" duration="28686000" />
+      <workItem from="1668043005367" duration="45639000" />
     </task>
     <servers />
   </component>
@@ -116,6 +123,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="612" y="110" key="RollbackChangesDialog/0.0.1536.816@0.0.1536.816" timestamp="1667887431909" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1668148765858">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1668148765858" />
     <state x="745" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1667999475467">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -124,9 +135,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="718" y="199" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1667641676529" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1667810506528">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668157197333">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1667810506528" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668157197333" />
   </component>
 </project>

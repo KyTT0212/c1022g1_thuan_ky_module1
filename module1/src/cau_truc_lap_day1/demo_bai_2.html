@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhietDo = null;
+    do {
+        nhietDo = +prompt("hay nhap nhiet do hien tai: ");
+
+        // dieu kien trong if de hien thi thong bao
+        if (nhietDo < 20) {
+            alert("hay tang nhiet do")
+        } else if (nhietDo > 100) {
+            alert("hay giam nhiet do")
+        } else document.write(nhietDo)
+
+    } while (nhietDo > 100 || nhietDo < 20)
+    // dieu kien trong while de chay lai vong lap.
+
+</script>
+
+</body>
+</html>
