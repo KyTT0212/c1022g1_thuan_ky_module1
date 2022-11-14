@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let result = ''
+    for (i=1;i<6;i++) {
+        for (j = 0; j < i; j++) {
+            result = result + '*'
+
+        }
+        result = result  + '<br>'
+
+    }
+    result= result + '</br>'
+
+    for(a=1;a<6;a++){
+        for(b=6;b>a;b--){
+            result+='*'
+        }result+='<br>'
+    }
+
+    result= result + '</br>'
+
+    for(i=1;i<6;i++){
+        for (j=5;j>i;j--){
+            result+='&ensp;'
+            }
+        for(u=1;u<=j;u++){
+                result+='*'
+        }result+='<br>'
+    }
+
+    result= result + '</br>'
+
+    for (i=1;i<6;i++) {
+        for (j=1;j<i;j++) {
+            result += '&ensp;'
+        }
+        for(u=5;u>=j;u--){
+            result+='*'
+        }
+        result += '<br>'
+    }
+    document.write(result);
+
+
+
+</script>
+
+</body>
+</html>

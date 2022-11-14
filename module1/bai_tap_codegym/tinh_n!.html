@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <script>
+        let n= +prompt(' Nhập n!')
+        let nTong=1
+        if(n>0){
+                for (let i = 1; i <=n ; i++) {
+                    nTong *= i
+                } document.write('tổng = ' + nTong)
+              }else {
+                document.write('giá trị không hợp lệ')
+                     }
+    </script>
+
 </body>
 </html>

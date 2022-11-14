@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/demo_bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/sinh_bang_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/su_dung_vong_lap+while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/02_bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/02_bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/1111.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_100_den_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_100_den_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100_ma_chia_het_cho_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100_ma_chia_het_cho_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_99_den_1_ma_chia_het_cho_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_99_den_1_ma_chia_het_cho_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tinh_n!.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tinh_n!.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tinh_tong_20_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tinh_tong_20_so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tong_50_so_chan_bat_dau_tu_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tong_50_so_chan_bat_dau_tu_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/vie_ct_tinh_tong_50_so_tu_1_den_50.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/vie_ct_tinh_tong_50_so_tu_1_den_50.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/viet_ct_tinh_tong_cua_50_so_tu_50_den_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/viet_ct_tinh_tong_cua_50_so_tu_50_den_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cau_truc_lap_day2/01_bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/01_bai8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,10 @@
       <recent name="D:\codegym\module1\PSEUDO CODE &amp; FLOWCHAT\bai tap 4" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.tạo trang cv cá nhân.html">
+  <component name="RunManager" selected="JavaScript Debug.01_bai6.html">
+    <configuration name="01_bai6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/src/cau_truc_lap_day2/01_bai6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="aaa.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/PSEUDO CODE &amp; FLOWCHAT/bai tap 4/bai 4 git &amp; html/aaa.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -67,9 +75,11 @@
       <item itemvalue="JavaScript Debug.tao danh sach.html" />
       <item itemvalue="JavaScript Debug.aaa.html" />
       <item itemvalue="JavaScript Debug.tạo trang cv cá nhân.html" />
+      <item itemvalue="JavaScript Debug.01_bai6.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.01_bai6.html" />
         <item itemvalue="JavaScript Debug.tạo trang cv cá nhân.html" />
         <item itemvalue="JavaScript Debug.aaa.html" />
         <item itemvalue="JavaScript Debug.tao danh sach.html" />
@@ -104,6 +114,7 @@
       <workItem from="1667921521150" duration="1841000" />
       <workItem from="1667955660807" duration="29722000" />
       <workItem from="1668043005367" duration="45639000" />
+      <workItem from="1668223344852" duration="60565000" />
     </task>
     <servers />
   </component>
@@ -119,6 +130,70 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="406" y="326" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1667650956433" />
+    <state width="620" height="239" key="GridCell.Tab.0.bottom" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.0.center" timestamp="1668397219690">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1668397219690" />
+    <state width="620" height="239" key="GridCell.Tab.0.left" timestamp="1668397219690">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1668397219690" />
+    <state width="620" height="239" key="GridCell.Tab.0.right" timestamp="1668397219690">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1668397219690" />
+    <state width="620" height="239" key="GridCell.Tab.1.bottom" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.1.center" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.1.left" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.1.right" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.2.bottom" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.2.center" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.2.left" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.2.right" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.3.bottom" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.3.center" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.3.left" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
+    <state width="620" height="239" key="GridCell.Tab.3.right" timestamp="1668397219691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="620" height="239" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1668397219691" />
     <state x="612" y="110" key="RollbackChangesDialog" timestamp="1667887431909">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -131,13 +206,25 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="745" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1667999475467" />
-    <state x="718" y="199" key="run.anything.popup" timestamp="1667641676529">
+    <state x="644" y="142" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1668397214651">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="718" y="199" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1667641676529" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668157197333">
+    <state x="644" y="142" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.816@0.0.1536.816" timestamp="1668397214651" />
+    <state x="1012" y="138" width="383" height="576" key="dock-window-1" timestamp="1668225560748">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668157197333" />
+    <state x="1012" y="138" width="383" height="576" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1668225560748" />
+    <state x="1012" y="138" width="383" height="576" key="dock-window-2" timestamp="1668225560748">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="1012" y="138" width="383" height="576" key="dock-window-2/0.0.1536.816@0.0.1536.816" timestamp="1668225560748" />
+    <state x="718" y="198" key="run.anything.popup" timestamp="1668229352606">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="718" y="198" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1668229352606" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668400300349">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668400300349" />
   </component>
 </project>
