@@ -6,15 +6,23 @@
 </head>
 <body>
 <script>
-    let number= +prompt('Nhập vào số nguyên tố ')
-    for (count=2;count<number;count++) {
-        if (number/count) {
-            alert('n KHÔNG PHẢI LÀ SỐ NGUYÊN TỐ ')
+    let number= 2
+    let count= 0
+    let soChiaHet=0
 
-        } else {
-            alert('n là số nguyên tố ')
-        }
+    while(count<20){
+        for( let i=1;i<=number;i++){
+            if(number%i==0){
+                soChiaHet++
+            }
+        }if(soChiaHet==2){
+            count++
+            document.write(number+',')
+        }soChiaHet=0
+        number++
     }
+
+
 
 
 

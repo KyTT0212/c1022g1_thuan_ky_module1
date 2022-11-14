@@ -7,49 +7,164 @@
 <body>
 <script>
     let a= +prompt('Nhập số tiền vay(triệu)')
-    let b= +prompt('Nhập thời gian vay(tháng)')
-    let c= +prompt('lãi suất năm(%)')
+    let b= +prompt('Nhập thời hạn vay(tháng)')
+    let d= +prompt('lãi suất (%)')
+    let c=d/100
+    let n=a/b
 
-    if(b==1){
-        x1=(a*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x1+'triệu')
+
+    if (b==1) {
+        x1 = a * c / b
+        alert('Số tiền lãi bạn phải trả là:' + x1 + 'triệu')
     }else if (b==2){
-        x2=((a-x1)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x2+'triệu')
-    }else if (b==3){
-        x3=((a-x2)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x3+'triệu')
-    }else if (b==4){
-        x4=((a-x3)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x4+'triệu')
-    }else if (b==5){
-        x5=((a-x4)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x5+'triệu')
-    }else if (b==6){
-        3
-        x6=((a-x5)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x6+'triệu')
-    }else if (b==7){
-        x7=((a-x6)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x7+'triệu')
-    }else if (b==8){
-        x8=((a-x7)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x8+'triệu')
-    }else if (b==9){
-        x9=((a-x8)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x9+'triệu')
-    }else if (b==10){
-        x10=((a-x9)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x10+'triệu')
-    }else if (b==11){
-        x11=((a-x10)*c/12)-(a/c)
-        alert('Số tiền lãi bạn phải trả là:'+x11+'triệu')
-    }else if (b==12){
-        x12=((a-x11)*c/12)-(a/c)
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x12=x1+x2
         alert('Số tiền lãi bạn phải trả là:'+x12+'triệu')
-    }else {
-        alert('Giá trị sai.')
+    } else if (b==3){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x13=x1+x2+x3
+        alert('Số tiền lãi bạn phải trả là:'+x13+'triệu')
+    }else if (b==4){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x14=x1+x2+x3+x4
+        alert('Số tiền lãi bạn phải trả là:'+x14+'triệu')
+    }else if (b==5){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x15=x1+x2+x3+x4+x5
+        alert(' Số tiền lãi bạn phải trả là:'+x15+'triệu')
+    }else if (b==6){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x16=x1+x2+x3+x4+x5+x6
+        alert('Số tiền lãi bạn phải trả là:'+x16+'triệu')
+    }else if (b==7){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x17=x1+x2+x3+x4+x5+x6+x7
+        alert('Số tiền lãi bạn phải trả là:'+x17+'triệu')
+    }else if (b==8){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x8=(a-(n*7))*c/b
+        x18=x1+x2+x3+x4+x5+x6+x7+x8
+        alert('Số tiền lãi bạn phải trả là:'+x18+'triệu')
+    }else if (b==9){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x8=(a-(n*7))*c/b
+        x9=(a-(n*8))*c/b
+        x19=x1+x2+x3+x4+x5+x6+x7+x8+x9
+        alert('Số tiền lãi bạn phải trả là:'+x19+'triệu')
+    }else if (b==10){
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x8=(a-(n*7))*c/b
+        x9=(a-(n*8))*c/b
+        x10 = (a - (n * 9)) * c / b
+        x110=x1+x2+x3+x4+x5+x6+x7+x8+x9+x10
+        alert('Số tiền lãi bạn phải trả là: ' + x110 + ' triệu')
+    } else if (b==11) {
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x8=(a-(n*7))*c/b
+        x9=(a-(n*8))*c/b
+        x10=(a-(n*9))*c/b
+        x11=(a-(n*10))*c/b
+        x111=x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11
+        alert('Số tiền lãi bạn phải trả là: ' + x111 + ' triệu')
+    }else if(b==12) {
+        x1 = a * c / b
+        x2=(a-n)*c/b
+        x3=(a-(n*2))*c/b
+        x4=(a-(n*3))*c/b
+        x5=(a-(n*4))*c/b
+        x6=(a-(n*5))*c/b
+        x7=(a-(n*6))*c/b
+        x8=(a-(n*7))*c/b
+        x9=(a-(n*8))*c/b
+        x10=(a-(n*9))*c/b
+        x11=(a-(n*10))*c/b
+        x12 = (a-(n*11))*c/b
+        x112=x1+x2+x3+x4+x5+x6+x7+x8+x9+x10+x11+x12
+        alert('Số tiền lãi bạn phải trả là: '+ x112 + ' triệu')
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // }else {
+    //     alert('Giá trị sai.')
+    // }
 
 
 
