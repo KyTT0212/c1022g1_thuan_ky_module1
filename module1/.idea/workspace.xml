@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/02_bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/02_bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/1111.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_100_den_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_100_den_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100_ma_chia_het_cho_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_1_den_100_ma_chia_het_cho_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_99_den_1_ma_chia_het_cho_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/in_ra_cac_so_tu_99_den_1_ma_chia_het_cho_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tinh_n!.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tinh_n!.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tinh_tong_20_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tinh_tong_20_so.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/tong_50_so_chan_bat_dau_tu_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/tong_50_so_chan_bat_dau_tu_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/vie_ct_tinh_tong_50_so_tu_1_den_50.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/vie_ct_tinh_tong_50_so_tu_1_den_50.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_codegym/viet_ct_tinh_tong_cua_50_so_tu_50_den_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_codegym/viet_ct_tinh_tong_cua_50_so_tu_50_den_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cau_truc_lap_day2/01_bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cau_truc_lap_day2/01_bai8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +102,8 @@
       <workItem from="1667955660807" duration="29722000" />
       <workItem from="1668043005367" duration="45639000" />
       <workItem from="1668223344852" duration="60565000" />
+      <workItem from="1668425232838" duration="40000" />
+      <workItem from="1668437032392" duration="1854000" />
     </task>
     <servers />
   </component>

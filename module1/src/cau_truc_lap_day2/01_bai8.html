@@ -5,8 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<button onclick="start">Chơi</button>
-<input type="text">
+<button onclick="start()"> Chơi </button>
+<script>
+    function start() {
+        let n =+prompt('Nhập vào số bạn muốn đoán trong khoảng: ')
+        let a= +promot('Bạn dự đoán số: ')
+        let b=Math.floor(Math.random()*n)
+        for(i=1;i<=3;i++){
+            if(b==a){
+                document.write('Bạn dự đoán đúng. Chúc mừng bạn')
+                break
+            }else if (i<=3){
+                if(a<b) alert('Số cần tìm lớn hơn. Mời bạn chọn lại')
+                else if (a>b) alert('Số cần tìm nhỏ hơn. Mời chọn lại')
+            } else if (i>3) alert('Bạn đã hết lượt')
+            }
+
+    }
+</script>
 
 </body>
 </html>
