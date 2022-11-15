@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number= prompt('Nhập vào: ')
+    let a=number.toString()
+    let kQ='';
+
+    for(i=0;i<a.length;i++) {
+        if ((a[i] % 2 === 0) && (a[i - 1] % 2 === 0)) {
+            kQ +='-' + a[i]
+        } else {
+            kQ+=a[i]
+        }
+
+    }document.write(kQ)
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

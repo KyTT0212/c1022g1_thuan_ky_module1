@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chuoi='The Quick Brown Fox'
+    let mang=chuoi.split('')
+
+
+    for(i=0;i<mang.length;i++) {
+        if (mang[i] === mang[i].toUpperCase()) {
+            mang[i] = mang[i].toLowerCase()
+
+
+        } else {
+            mang[i] = mang[i].toUpperCase()
+
+        }
+
+    }chuoi=mang.join('')
+    alert(chuoi)
+
+</script>
+
+</body>
+</html>
