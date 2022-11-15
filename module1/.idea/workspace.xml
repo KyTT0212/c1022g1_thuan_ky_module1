@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/su_dung_cac_ham_co_san_cua_mang/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array_day1/su_dung_cac_ham_co_san_cua_mang/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1668223344852" duration="60565000" />
       <workItem from="1668425232838" duration="40000" />
       <workItem from="1668437032392" duration="12111000" />
-      <workItem from="1668514326557" duration="8487000" />
+      <workItem from="1668514326557" duration="12842000" />
     </task>
     <servers />
   </component>
