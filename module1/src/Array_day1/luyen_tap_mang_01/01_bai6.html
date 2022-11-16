@@ -5,6 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    let a = Array(10)
+    for (i = 0; i < a.length; i++) {
+        a[i] = +prompt(`nhap so phan tu a[${i}]`)
+    }let v = +prompt('nhap gia tri')
+    if (a.indexOf(v) != -1) {
+        alert('v is array')
+    } else if (a.indexOf(v) == -1) {
+        alert('v not is array')
+    }
+</script>
 </body>
 </html>
