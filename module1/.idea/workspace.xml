@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai_tap_codegym/dai_ngan_ha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/01_bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_day2/02_bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array_day1/luyen_tap_mang_01/01_bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài3/cau_truc_dk_02_bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_9_cau_truc_diu_kien_2/02/cấu trúc đk 02_bài3/cau_truc_dk_02_bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cau_truc_lap_day1/sinh_bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/sinh_bang_cuu_chuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cau_truc_lap_day1/so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cau_truc_lap_day1/so_nguyen_to.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,18 +116,26 @@
       <workItem from="1668425232838" duration="40000" />
       <workItem from="1668437032392" duration="12111000" />
       <workItem from="1668514326557" duration="14464000" />
-      <workItem from="1668561166699" duration="3173000" />
+      <workItem from="1668561166699" duration="14537000" />
+      <workItem from="1668601683240" duration="4726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1668054246426">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="240" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1668054246426" />
+    <state x="786" y="0" key="CommitChangelistDialog2" timestamp="1668589990214">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="786" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1668589990214" />
     <state x="406" y="326" key="FileChooserDialogImpl" timestamp="1667650956433">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -215,9 +232,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="718" y="198" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1668229352606" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668400300349">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668581864620">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668400300349" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668581864620" />
   </component>
 </project>

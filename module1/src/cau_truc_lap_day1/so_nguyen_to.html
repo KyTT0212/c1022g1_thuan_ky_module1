@@ -6,26 +6,23 @@
 </head>
 <body>
 <script>
-    let number= 2
-    let count= 0
-    let soChiaHet=0
+    let number = 2
+    let count = 0
+    let soChiaHet = 0
 
-    while(count<20){
-        for( let i=1;i<=number;i++){
-            if(number%i==0){
+    while (count < 20) {
+        for (let i = 1; i <= number; i++) {
+            if (number % i == 0) {
                 soChiaHet++
             }
-        }if(soChiaHet==2){
+        }
+        if (soChiaHet == 2) {
             count++
-            document.write(number+',')
-        }soChiaHet=0
+            document.write(number + ',')
+        }
+        soChiaHet = 0
         number++
     }
-
-
-
-
-
 </script>
 
 </body>

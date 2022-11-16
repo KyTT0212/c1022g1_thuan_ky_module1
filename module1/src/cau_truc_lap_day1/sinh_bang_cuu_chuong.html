@@ -5,12 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    for (var i=0;i<10;i==)(
 
-    )
+<script>
+    document.write('<h2>Bảng cửu chương</h2>')
+    let a, b, s;
+    let result = '<table border="3px">';
+    for (a = 1; a <= 10; a++) {
+        result = result + '<tr>'
+        for (b = 2; b <= 9; b++) {
+            s = a * b
+            result = result + '<td>' + b + 'x' + a + '=' + s + '</td>';
+        }
+        result = result + '</tr>'
+    }
+    result = result + '</table>';
+    document.write(result)
 </script>
-<table style="width:300px" border="1" cellpadding="">
+
 
 
 </table>

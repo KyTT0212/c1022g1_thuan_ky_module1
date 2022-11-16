@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[]
+    let b=+prompt('nhap so phan tu')
+
+    for (i=0;i<b;i++){
+        a[i]=prompt(`nhap phan tu a[${i}]`)
+        if (a[i]=='-'){
+            a[i]="_"
+            alert(a[i])
+        }
+    }let c=a.join('')
+    alert(c)
+</script>
+
+</body>
+</html>
