@@ -13,8 +13,9 @@
     for ( i = 0; i <a.length ; i++) {
         if(v=a[i]){
             for (j=i;j<a.length-1;j++){
-                
-            }
+                a[j]=a[j+1]
+            }a[a.length-1]=0
+            i--
         }
     }
 
