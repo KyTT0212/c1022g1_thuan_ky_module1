@@ -7,11 +7,14 @@
 <body>
 <script>
     let a=prompt('Nhap chuoi ki tu')
-    let mang=[]
+    let mang=a.split('')
+    let count=0
 
-    for ( i = 0; i <a ; i++) {
-        mang[i]=prompt('nhap cac ki tu')
-    }
+    for ( i = 0; i <mang.length ; i++) {
+      if (mang[i]!=''){
+          count++
+      }
+    }document.write('chuoi co '+count+' tu')
 
 </script>
 
