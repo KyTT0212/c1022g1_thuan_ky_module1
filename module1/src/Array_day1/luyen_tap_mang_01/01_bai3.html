@@ -10,34 +10,30 @@
     let max=0
     let giaTriTB=''
     tong=0
-<<<<<<< HEAD
 
 
     for ( i = 0; i <a.length ; i++) {
-        if(a[i]>max){
-            max=a[i]
+        if (a[i] > max) {
+            max = a[i]
 
-=======
-    
-    
-    for ( i = 0; i <a.length ; i++) {
-        if(a[i]>max){
-            max=a[i]
-    
->>>>>>> 1a99ac1c84a20ec0f7721d46c0eb4610db96c585
-        } tong+=a[i]
+
+            for (i = 0; i < a.length; i++) {
+                if (a[i] > max) {
+                    max = a[i]
+
+
+                }
+                tong += a[i]
+            }
+            alert('giá trị lớn nhất trong mảng ' + max)
+            alert(tong)
+
+
+            giaTriTB = tong / a.length
+            alert('giá trị trung bình của các phần tử trong mảng : ' + giaTriTB)
+
         }
-        alert('giá trị lớn nhất trong mảng '+max)
-        alert(tong)
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 1a99ac1c84a20ec0f7721d46c0eb4610db96c585
-    giaTriTB=tong/a.length
-    alert('giá trị trung bình của các phần tử trong mảng : '+giaTriTB)
-
-
+    }
 
 
 

@@ -6,12 +6,13 @@
 </head>
 <body>
 <script>
-    let a=prompt('nhập vào một mảng số nguyên số phần tử')
-    let v=[]
+    let a = prompt('nhập vào một mảng số nguyên số phần tử')
+    let v = []
 
-    for(i=0;i<a;i++){
-        v[i]=prompt('nhập các phần tử của mảng')
-    }v.sort(function (a,b) {
+    for (i = 0; i < a; i++) {
+        v[i] = prompt('nhập các phần tử của mảng')
+    }
+    v.sort(function (a, b) {
         return b - a
     })
     document.write(v)
