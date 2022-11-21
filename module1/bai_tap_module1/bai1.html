@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let n=+prompt('nhap chieu rong');
+    let m=+prompt('nhap chieu dai');
+    let result = ''
+
+    for(i=1;i<=n;i++){
+            for(j=0;j<m;j++){
+                if(i==1 || i==n || j==0 || j==m-1){
+                    result+= '*';
+                }else {
+                    result+='&ensp;'
+                }
+        }result= result+'<br>';
+    }document.write(result)
+</script>
+
 </body>
 </html>

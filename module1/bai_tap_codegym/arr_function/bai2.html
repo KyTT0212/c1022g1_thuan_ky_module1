@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function bai2(a) {
+        let count=0
+        for(j=0;j<arr.length;j++){
+            if(a[j]=+a[j]){
+                count++
+            }
+        }alert(count)
+        if(count===a.length){
+            return 1
+        }else  if (count<a.length && count>0){
+            return -1
+        }else {
+            return 0
+        }
+
+    }
+    let arr=[]
+    let n=prompt('nhap do dai')
+    for ( i = 0; i <n ; i++) {
+        arr[i]=prompt(`nhap ki tu arr[${i}]`)
+    }
+    bai2(arr)
+</script>
+
 </body>
 </html>
