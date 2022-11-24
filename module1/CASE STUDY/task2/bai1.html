@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let wage= +prompt('nhap luong nhan vien (tr)');
+    //so thue thu nhap;(tax)
+    //so thue phai dong;
+    let taxPayable=
+    ;
+    //so tien nhan duoc;
+    let total='';
+
+    if(wage>=15){
+        tax=20/100;
+        taxPayable=wage*tax;
+        total=wage-taxPayable;
+    }else if (wage>=7 && wage<15){
+        tax=10/100;
+        taxPayable=wage*tax;
+        total=wage-taxPayable;
+    }else {
+        tax=5/100;
+        taxPayable=wage*tax;
+        total=wage-taxPayable;
+    }
+
+    alert('so thue phai dong la :' +taxPayable+'tr')
+    alert('so tien nhan duoc la : '+total+'tr')
+
+
+
+</script>
+
+</body>
+</html>
