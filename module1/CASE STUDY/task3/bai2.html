@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[];
+    let b=[];
+    let x= +prompt(`nhap do dai mang a`);
+    let y= +prompt(`nhap do dai mang b`)
+    let newArr=[];
+
+    for (let i=0;i<x;i++){
+        a[i]= +prompt(`Nhap phan tu a[${i}]`);
+    }
+    for (let j=0;j<y;j++){
+        b[j]= +prompt(`Nhap phan tu b[${j}]`)
+        if(a.indexOf(b[j])===-1){
+            newArr.push(b[j]);
+        }
+    }
+    document.write(newArr);
+
+
+
+</script>
+
+</body>
+</html>

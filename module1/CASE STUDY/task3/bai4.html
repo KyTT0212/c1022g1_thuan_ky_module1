@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number= prompt('nhap so can in');
+    let a=['khong','mot','hai','ba','bon','nam','sau','bay','tam','chin'];
+    let b=[0,1,2,3,4,5,6,7,8,9]
+    let result='';
+    let arrNumber = number.split('')
+    alert(arrNumber);
+
+    for (let i = 0; i < arrNumber.length; i++) {
+        let index = b.indexOf(+arrNumber[i]);
+        alert(a[index]);
+        result += a[index]+' ';
+    }
+    document.write(result)
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

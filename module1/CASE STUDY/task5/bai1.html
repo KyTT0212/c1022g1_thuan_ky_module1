@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m= +prompt('nhap do dai hang m');
+    let n= +prompt('nhap do dai cot n');
+    let arrM=[];
+    let arrN=[];
+    let count1=0;
+    let count2=0;
+    let result='';
+
+    for (let i = 0; i <m ; i++) {
+        arrM[i]= +prompt(`nhap phan tu arr[${i}]`);
+    }
+    for (let i = 0; i <n ; i++) {
+        arrN[i]= +prompt(`nhap phan tu arr[${i}]`);
+    }
+
+    for (let i = 0; i <arrM.length ; i++) {
+        if(arrM[i]%2==0){
+            count1+=arrM[i];
+        }
+    }alert(`count1 = ${count1}`)
+    for (let i = 0; i <arrN.length ; i++) {
+        if(arrN[i]%2==0){
+            count2+=arrN[i];
+        }
+    }alert(`count2 = ${count2}`)
+
+    result=count2+count1;
+    document.write(`tổng các số chẵn trong ma trận ${result}`)
+</script>
+
+</body>
+</html>

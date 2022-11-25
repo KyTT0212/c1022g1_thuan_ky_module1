@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function prime() {
+        let sum = 0;
+        let result = 0;
+        let arr = [arr1, arr2];
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] < 2) {
+                    alert(arr[i][j] + ' khong phai so nguyen to');
+                } else if (arr[i][j] >= 2) {
+                    for (let k = 1; k <= arr[i][j]; k++) {
+                        if (arr[i][j] % k == 0) {
+                            sum++;
+                        }
+                    }
+                    if (sum == 2) {
+                        document.write(+arr[i][j] + ' la so nguyen to' + '<br>');
+                        result++;
+                    }
+                    sum = 0;
+                }
+            }
+        }
+        return 'các số nguyên tố có trong mảng : ' + result;
+    }
+
+    let arr1 = [];
+    let arr2 = [];
+    let a= +prompt('nhap do dai arr1');
+    let b= +prompt('nhap do dai arr2');
+
+    for (let i = 0; i <a ; i++) {
+        arr1[i]= +prompt(`nhap phan tu arr1[${i}]`);
+    }
+    for (let i = 0; i <b ; i++) {
+        arr2[i]= +prompt(`nhap phan tu arr2[${i}]`);
+    }
+
+    document.write(prime());
+
+
+</script>
+
+</body>
+</html>

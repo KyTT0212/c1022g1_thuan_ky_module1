@@ -9,9 +9,21 @@
     let a=[];
     let n= +prompt('nhap do dai mang a')
 
-    for(i=0;i<n;i++){
+    for(let i=0;i<n;i++){
         a[i]= +prompt(`nhap phan tu a[${i}]`);
     }
+
+    let b=[];
+
+    b[0]=a[0];
+    for (let j = 0; j < a.length-1 ; j++) {
+        b[j+1]=b[j]+a[j+1];
+
+
+    }
+console.log(b)
+
+
 
 
 
