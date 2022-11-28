@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function arrNew() {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr2.includes(arr[i]) === false) {
+                arr2.push(arr[i]);
+            }
+
+        }
+        document.write(`differentSymbolsNaive(arr2) = ${arr2.length}` + '<br>')
+        document.write(`co ${arr2.length} ki tu khac nhau la : ${arr2}`);
+    }
+
+
+    let str = prompt('nhap chuoi ki tu');
+    let arr = str.split('');
+    let arr2 = [];
+
+    arrNew();
+
+
+</script>
+
+</body>
+</html>

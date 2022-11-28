@@ -5,19 +5,32 @@
     <title>Title</title>
 </head>
 <body>
+<canvas id="trucQuanHCN" width="500" height="380"></canvas>
+<br>
+
 <script>
+
     class Rectangle {
         constructor(long, width) {
             this.long = long;
             this.width = width;
+
         }
 
         area() {
-            console.log(this.long * this.width)
+            return this.long * this.width;
         }
 
         perimeter() {
-            console.log((this.long + this.width) * 2)
+            return (this.long + this.width) * 2;
+        }
+
+        getLong() {
+            return this.long;
+        }
+
+        getWidth() {
+            return this.width;
         }
 
         setLong(newLong) {
@@ -27,14 +40,27 @@
         setWidth(newWidth) {
             this.width = newWidth;
         }
+
+        drawRec() {
+            let canvasObj = document.getElementById('trucQuanHCN');
+            let ctx = canvasObj.getContext('2d');
+            ctx.rect(100, 100, this.long, this.width);
+            ctx.stroke();
+            ctx.fillStyle = 'honeydew';
+            ctx.fill();
+
+        }
     }
 
     let myRectangle = new Rectangle(20, 10);
-    myRectangle.area()
-    myRectangle.perimeter()
-    myRectangle.setLong(30);
-    myRectangle.area();
 
+    document.write('dien tich hinh chu nhat la : ' + myRectangle.area() + '<br>');
+    document.write('chu vi hinh chu nhat la : ' + myRectangle.perimeter() + '<br>');
+    myRectangle.setLong(300);
+    myRectangle.setWidth(200);
+    document.write('dien tich sau thay doi la : ' + myRectangle.area() + '<br>');
+    document.write('chu  vi sau thay doi la : ' + myRectangle.perimeter() + '<br>');
+    myRectangle.drawRec();
 </script>
 
 </body>

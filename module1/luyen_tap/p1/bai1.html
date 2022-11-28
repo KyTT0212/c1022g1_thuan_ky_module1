@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>dem so lan xuat hien cac ki tu trong chuoi</p>
+
+<script>
+    let n=prompt('nhap chuoi ki tu');
+    let arr=n.split('');
+    let arr1=[];
+
+    for (let i = 0; i <arr.length ; i++) {
+        if(arr[i]!==' '){
+            arr1.push(arr[i])
+        }
+    }
+    document.write('tong cac ki tu trong chuoi la '+arr1.length);
+
+</script>
+
+</body>
+</html>

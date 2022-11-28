@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function commonCharacter() {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr1.indexOf(arr[i]) !== -1) {
+                arr2.push(arr[i]);
+                arr1.splice(arr1.indexOf(arr[i]), 1);
+
+            }
+        }
+        document.write(`commonCharacterCount(s1, s2) = ${arr2.length}` + '<br>');
+        document.write(`⇨\t2 xâu s1 và s2 có ${arr2.length} kí tự chung: ${arr2}`);
+    }
+
+    let s1 = prompt('nhap chuoi 1');
+    let s2 = prompt('nhap chuoi 2');
+    let arr = s2.split('');
+    let arr1 = s1.split('');
+    let arr2 = [];
+
+    commonCharacter();
+
+
+</script>
+
+</body>
+</html>

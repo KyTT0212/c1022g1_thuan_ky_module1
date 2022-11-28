@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+class Apple{
+    constructor(weight) {
+        this._weight=10;
+    }
+    decrease(){
+        this._weight--;
+    }
+    isEmpty(){
+        if(this._weight===0){
+            return true;
+        } else return false
+    }
+    getWeight(){
+       return this._weight;
+    }
+}
+class Human{
+    constructor(name,gender,weight) {
+        this.name=name;
+        this.gender=gender;
+        this.weight=weight;
+    }
+    isMale(){
+        if('nam'){
+            return true;
+        }else if ('nu'){
+            return false;
+        }
+
+    }
+    setGender(gioiTinhMoi) {
+        this.gender = gioiTinhMoi;
+    }
+
+}
+// let ky = new Human("Ky",true,40);
+// console.log(ky.name)
+// console.log(ky.gender)
+// console.log(ky.weight);
+// ky.setGender(false);
+// console.log(ky.gender);
+</script>
+
 </body>
 </html>
