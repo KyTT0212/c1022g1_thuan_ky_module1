@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Viết chương trình nhập vào 2 số từ bàn phím, in ra màn hình kết quả so sánh của 2 số đó.</p>
+
+<script>
+    let a=+prompt('nhap gia tri a');
+    let b=+prompt('nhap gia tri b');
+
+    if(a>b){
+        document.write(`ket qua : a=${a} lon hon b=${b}`);
+    }else if (a===b){
+        document.write(`ket qua : a=${a} bang b=${b}`);
+    }else {
+        document.write(`ket qua : a=${a} nho hon b=${b}`);
+    }
+</script>
+</body>
+</html>

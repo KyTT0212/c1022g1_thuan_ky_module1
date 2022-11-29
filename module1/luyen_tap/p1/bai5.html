@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Viết chương trình nhập vào một chuỗi và xác định xem chuỗi có phải là đối xứng không?</p>
+
+<script>
+    function symmetricChain(){
+        for (let i = arr.length-1; i >=0; i--) {
+            arrReverse.push(arr[i]);
+        }
+
+        for (let i = 0; i <arr.length ; i++) {
+            if(arr[i]===arrReverse[i]){
+            }
+            else {
+                document.write('day khong phai la chuoi doi xung : '+ x);
+                return;
+            }
+        }
+        document.write('day la chuoi doi xung : '+ x);
+    }
+
+    let x=prompt('nhap vao chuoi can kiem tra');
+    let arr=x.split('');
+    let arrReverse=[];
+    let result='';
+
+    symmetricChain();
+
+
+</script>
+
+</body>
+</html>

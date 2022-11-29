@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Viết chương trình nhập mảng các số nguyên và xuất ra màn hình các phần tử là số chính
+    phương nằm tại các vị trí lẻ trong mảng.</p>
+
+<script>
+    let arr=[];
+    let a=+prompt('nhap do dai mang');
+    arr1=[];
+    arr2=[];
+
+    for (let i = 0; i <a ; i++) {
+        arr[i]=+prompt('nhap phan tu arr['+i+']');
+    }
+    for (let i = 0; i <arr.length ; i++) {
+        if(Math.sqrt(arr[i])==parseInt(Math.sqrt(arr[i]))){
+            arr1.push(arr[i]);
+            if(i%2!=0){
+                arr2.push(arr[i]);
+
+            }
+        }
+
+    }
+    document.write('arr='+ arr+'<br>');
+    document.write('so chinh phuong : '+arr1+'<br>');
+    document.write('so le : '+arr2);
+
+</script>
+
+</body>
+</html>

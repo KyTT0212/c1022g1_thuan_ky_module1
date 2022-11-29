@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Viết chương trình tính tổng các phần tử chia hết cho 5 trong mảng.</p>
+
+<script>
+    let arr=[];
+    let result=0;
+    let n=+prompt('nhap do dai mang');
+
+    for (let i = 0; i <n ; i++) {
+        arr[i]=+prompt('nhap phan tu arr['+i+']');
+    }
+
+    for (let i = 0; i <arr.length ; i++) {
+        if(arr[i]%5==0){
+            result+= arr[i];
+        }
+    }document.write('tong cac phan tu chia het cho 5 la : '+result);
+
+</script>
+
+</body>
+</html>

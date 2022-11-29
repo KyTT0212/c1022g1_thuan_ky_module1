@@ -5,9 +5,32 @@
     <title>Title</title>
 </head>
 <body>
-<p>giai phuong trinh bac 2 ax2+bx+c=0</p>
+<p>Giải phương trình bậc hai ax2 + bx + c = 0.</p>
 
 <script>
+    let a=+prompt('nhap gia tri a');
+    let b=+prompt('nhap gia tri b');
+    let c=+prompt('nhap gia tri c');
+    let x=b*b-(4*a*c);
+
+
+    if(a===0){
+        alert('vui long nhap lai gia tri a');
+    } else {
+        if(x<0){
+            document.write('phuong trinh vo nghiem.')
+        }
+        else if (x===0){
+            document.write('phuong trinh co nghiem kep x1=x2='+ -b/(2*a));
+        }else {
+
+            x1=(-b+Math.sqrt(x))/2*a;
+            x2=(-b-Math.sqrt(x))/2*a;
+            document.write(`phuong trinh co nghiem : x1=${x1} va x2=${x2} `)
+        }
+
+    }
+
 
 </script>
 
