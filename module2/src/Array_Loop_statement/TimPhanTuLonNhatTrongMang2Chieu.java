@@ -6,7 +6,7 @@ public class TimPhanTuLonNhatTrongMang2Chieu {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
 
-        
+
 
 
     }
