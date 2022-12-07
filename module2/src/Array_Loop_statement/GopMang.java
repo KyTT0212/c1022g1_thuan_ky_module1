@@ -1,5 +1,6 @@
 package Array_Loop_statement;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class GopMang {
@@ -24,7 +25,7 @@ public class GopMang {
             arr2[i]=Integer.parseInt(sc.nextLine());
             arr[i+arr1.length]=arr2[i];
         }
-        System.out.print(arr);
+        System.out.print(Arrays.toString(arr));
 
 
     }

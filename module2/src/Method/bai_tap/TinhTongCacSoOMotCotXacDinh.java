@@ -22,7 +22,7 @@ public class TinhTongCacSoOMotCotXacDinh {
             System.out.print("input arr2["+i+"]");
             arr2[i]=Integer.parseInt(scanner.nextLine());
         }
-        System.out.print("input pillar");
+        System.out.print("input column");
         int pillar=Integer.parseInt(scanner.nextLine());
         int arr[][]={arr1,arr2};
         int sum=0;
