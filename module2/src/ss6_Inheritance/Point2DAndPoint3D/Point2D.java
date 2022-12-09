@@ -30,13 +30,13 @@ public class Point2D {
         this.y = y;
     }
 
-    public void setXY(float x , float y){
-        this.x=x;
-        this.y=y;
+    public void setXY(float x, float y) {
+        this.x = x;
+        this.y = y;
     }
 
-    public float[] getXY(){
-        float a[]={this.x,this.y};
+    public float[] getXY() {
+        float a[] = {this.x, this.y};
         return a;
     }
 
@@ -53,8 +53,8 @@ public class Point2D {
 
     @Override
     public String toString() {
-        return "Point2D{"+
-                " x,y="+ Arrays.toString(getXY())+
+        return "Point2D{" +
+                " x,y=" + Arrays.toString(getXY()) +
                 "}";
     }
 }

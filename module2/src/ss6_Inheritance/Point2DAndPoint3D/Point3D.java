@@ -3,9 +3,9 @@ package ss6_Inheritance.Point2DAndPoint3D;
 import java.util.Arrays;
 
 public class Point3D extends Point2D {
-   private float z;
+    private float z;
 
-    public Point3D(){
+    public Point3D() {
     }
 
     public Point3D(float x, float y, float z) {
@@ -22,13 +22,13 @@ public class Point3D extends Point2D {
         this.z = z;
     }
 
-    public void setXYZ(float x ,float y,float z){
-        super.setXY(x,y);
-        this.z=z;
+    public void setXYZ(float x, float y, float z) {
+        super.setXY(x, y);
+        this.z = z;
     }
 
-    public float[] getXYZ(){
-        float b[]={super.getX(), super.getY(), this.z};
+    public float[] getXYZ() {
+        float b[] = {super.getX(), super.getY(), this.z};
         return b;
     }
 
@@ -36,10 +36,9 @@ public class Point3D extends Point2D {
     @Override
     public String toString() {
         return "Point3D{" +
-                "x,y,z= "+ Arrays.toString(getXYZ()) +
+                "x,y,z= " + Arrays.toString(getXYZ()) +
                 '}';
     }
-
 
 //    //Cach 2
 //    @Override

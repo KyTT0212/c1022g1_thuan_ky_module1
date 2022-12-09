@@ -31,8 +31,8 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea(){
-        return this.radius*this.radius*Math.PI;
+    public double getArea() {
+        return this.radius * this.radius * Math.PI;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Circle {
         return "Circle{" +
                 "radius=" + radius +
                 ", color='" + color + '\'' +
-                " , area=" + getArea()+
+                " , area=" + getArea() +
                 '}';
     }
 }
