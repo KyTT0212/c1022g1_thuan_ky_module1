@@ -32,13 +32,13 @@ public class Point3D extends Point2D {
         return b;
     }
 
-//    //Cach 1
-//    @Override
-//    public String toString() {
-//        return "Point3D{" +
-//                "arr= " + Arrays.toString(getXYZ()) +
-//                '}';
-//    }
+    //Cach 1
+    @Override
+    public String toString() {
+        return "Point3D{" +
+                "arr= " + Arrays.toString(getXYZ()) +
+                '}';
+    }
 
 //    //Cach 2
 //    @Override
