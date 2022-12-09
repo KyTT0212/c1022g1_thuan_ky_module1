@@ -1,4 +1,4 @@
-package AccessModifierStatic.AccessModifier;
+package ss5_AccessModifierStatic.AccessModifier;
 
 import java.awt.geom.Area;
 
@@ -17,9 +17,7 @@ public class Circle {
         return radius;
     }
 
-    public double Area;
-
     public double getArea() {
-        return Area = this.radius * this.radius * Math.PI;
+        return this.radius * this.radius * Math.PI;
     }
 }
