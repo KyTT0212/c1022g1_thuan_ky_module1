@@ -1,6 +1,6 @@
 package ss7_AbstractClass_Interface.Colorable;
 
-public class Rectangle extends Geometry implements IColorable {
+public class Rectangle extends Geometry {
     private double height;
     private double width;
 
@@ -35,10 +35,15 @@ public class Rectangle extends Geometry implements IColorable {
     }
 
     public double area(){
-
+        return this.width*this.height;
     }
-    @Override
-    public void howToColor() {
 
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "height=" + height +
+                ", width=" + width +
+                ", area=" + area()+
+                '}';
     }
 }

@@ -26,7 +26,20 @@ public class Square extends Geometry implements IColorable{
 
 
     @Override
+    public String toString() {
+        return "Square{" +
+                "edge=" + edge +
+                " area=" +area()+
+                '}';
+    }
+
+    @Override
     public void howToColor() {
+        if (isFill()){
+            System.out.println("Color "+this.getColor()+ " all four sides.");
+        }else {
+            System.out.println("No color");
+        }
 
     }
 }
