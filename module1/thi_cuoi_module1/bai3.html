@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function monthYear() {
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                return 'co 31 ngay';
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                return ' co 30 ngay';
+            case 2:
+                if (year % 4 == 0) {
+                    return 'day la nam nhuan thang co 29 ngay';
+                } else return 'day khong phai nam nhuan thang co 28 ngay';
+        }
+    }
+    let month = +prompt('nhap so thang');
+    let year = +prompt('nhap so nam');
+    let result = '';
+
+    document.write('thang' + month + '/' + year +'<br>'+ monthYear());
+</script>
+
 </body>
 </html>

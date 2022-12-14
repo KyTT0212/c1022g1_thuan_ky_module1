@@ -9,7 +9,7 @@ public class Test {
 
         for (Geometry geometry : geometrys){
             if (geometry instanceof Square){
-                IColorable square1=(Square) geometry;
+                Square square1=(Square) geometry;
                 System.out.println(geometry);
                 square1.howToColor();
                 System.out.println();

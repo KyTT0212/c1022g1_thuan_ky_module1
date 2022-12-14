@@ -2,9 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div style="height: 300px ; width: 800px ; background-color: lightgoldenrodyellow">
+    <div style="background-color: lightgray ; height: 40px ; width: 800px"></div>
+    <div style="width: 800px ;height: 20px ; margin-top: 260px ; background-color: lightgray"></div>
+
+    <table border="1" ; style="margin-top: -200px ;margin-left: 150px">
+        <tr>
+            <th>Stt</th>
+            <th>Ho va ten</th>
+            <th>Ngay sinh</th>
+            <th>Dia chi</th>
+            <th>luong</th>
+            <th>Chuc vu</th>
+        </tr>
+        <tr>
+            <td id="td1"></td>
+            <td id="td2"></td>
+            <td id="td3"></td>
+            <td id="td4"></td>
+            <td id="td5"></td>
+            <td id="td6"></td>
+        </tr>
+        <tr>
+            <td id="td7"></td>
+            <td id="td8"></td>
+            <td id="td9"></td>
+            <td id="td10"></td>
+            <td id="td11"></td>
+            <td id="td12"></td>
+        </tr>
+        <tr>
+            <td id="td13"></td>
+            <td id="td14"></td>
+            <td id="td15"></td>
+            <td id="td16"></td>
+            <td id="td17"></td>
+            <td id="td18"></td>
+        </tr>
+
+    </table>
+</div>
+
+<script>
+    class quanLiCongNhan {
+        constructor(stt, name, date, diaChi, luong, chucVu) {
+            this.stt = stt;
+            this.name = name;
+            this.date = date;
+            this.diaChi = diaChi;
+            this.luong = luong;
+            this.chucVu = chucVu;
+        }
+
+        setstt(newstt) {
+            this.stt = newstt;
+        }
+
+        getstt() {
+            return this.stt;
+        }
+
+        setname(newname) {
+            this.name = newname;
+        }
+
+        getname() {
+            return this.name;
+        }
+
+        setdate(newdate) {
+            this.date = newdate;
+        }
+
+        getdate() {
+            return this.date;
+        }
+
+        setdiaChi(newdiaChi) {
+            this.diaChi = newdiaChi;
+        }
+
+        getdiaChi() {
+            return this.diaChi;
+        }
+
+        setluong(newluong) {
+            this.luong = newluong;
+        }
+
+        getluong() {
+            return this.luong;
+        }
+
+        setchucVu(newchucVu) {
+            this.chucVu = newchucVu;
+        }
+
+        getchucVu() {
+            return this.chucVu;
+        }
+
+    }
+
+    let a = new quanLiCongNhan(1, 'NguyenVanA', '2/12/1992', 'DN', '2000', 'abc');
+    document.getElementById('td1').innerHTML = a.stt;
+    document.getElementById('td2').innerHTML = a.name;
+    document.getElementById('td3').innerHTML = a.date;
+    document.getElementById('td4').innerHTML = a.diaChi;
+    document.getElementById('td5').innerHTML = a.luong;
+    document.getElementById('td6').innerHTML = a.chucVu;
+
+    let b = new quanLiCongNhan(2, 'NguyenVanB', '2/12/1993', 'HN', '2000', 'abc');
+    document.getElementById('td7').innerHTML = b.stt;
+    document.getElementById('td8').innerHTML = b.name;
+    document.getElementById('td9').innerHTML = b.date;
+    document.getElementById('td10').innerHTML = b.diaChi;
+    document.getElementById('td11').innerHTML = b.luong;
+    document.getElementById('td12').innerHTML = b.chucVu;
+
+    let c = new quanLiCongNhan(3, 'NguyenVanC', '2/12/1994', 'SG', '2000', 'abc');
+    document.getElementById('td13').innerHTML = c.stt;
+    document.getElementById('td14').innerHTML = c.name;
+    document.getElementById('td15').innerHTML = c.date;
+    document.getElementById('td16').innerHTML = c.diaChi;
+    document.getElementById('td17').innerHTML = c.luong;
+    document.getElementById('td18').innerHTML = c.chucVu;
+
+</script>
+
 </body>
 </html>
