@@ -32,11 +32,45 @@ public class ProductManager extends ServiceProductManager {
                 System.out.println("Nhap gia tien cua san pham");
                 double price = sc.nextDouble();
                 ModelProduct add = new ModelProduct(id, name, price);
-                //danhSachSanPham.add();
+
             }
             else if (luaChon==2){
                 System.out.println("Nhap id can sua");
-                int idOld;
+                int idOld = Integer.parseInt(sc.nextLine());
+                ModelProduct p = ServiceProductManager.findProducById(idOld);
+                if (p != null){
+                    System.out.println("Nhap id moi");
+                    int newId = Integer.parseInt(sc.nextLine());
+                    p.setId(newId);
+                    System.out.println("Nhap ten sp");
+                    String newNameProduct = sc.nextLine();
+                    p.setNameProduct(newNameProduct);
+                    System.out.println("Nhap gia tien");
+                    double newPrice = Double.parseDouble(sc.nextLine());
+                    p.setPrice(newPrice);
+                    ServiceProductManager.updateProduct(p);
+                }else {
+                    System.out.println("gia tri khong ton tai");
+                }
+            }
+            else if (luaChon==3){
+                System.out.println("Nhap id san pham can xoa");
+                int id = Integer.parseInt(sc.nextLine());
+                ServiceProductManager.removeProduct(id);
+            }
+            else if (luaChon==4){
+                ServiceProductManager.listProduct();
+            }
+            else if (luaChon==5){
+                System.out.println("Nhap ten sp tim kiem");
+                Object nameProduct= sc.nextLine();
+                ServiceProductManager.seatchProduct(nameProduct);
+            }
+            else if (luaChon==6){
+                ServiceProductManager.sortAscendingOrder();
+            }
+            else if (luaChon==7){
+                ServiceProductManager.sortDescendingOrder();
             }
         }while (luaChon!=0);
     }

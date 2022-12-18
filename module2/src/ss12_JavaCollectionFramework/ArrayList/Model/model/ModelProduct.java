@@ -1,6 +1,6 @@
 package ss12_JavaCollectionFramework.ArrayList.Model.model;
 
-public class ModelProduct {
+public class ModelProduct implements Comparable<ModelProduct> {
     private int id;
     private String nameProduct;
     private double price;
@@ -45,5 +45,10 @@ public class ModelProduct {
                 ", nameProduct='" + nameProduct + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public int compareTo(ModelProduct o) {
+        return this.id - o.getId();
     }
 }
