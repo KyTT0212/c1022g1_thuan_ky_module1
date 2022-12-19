@@ -1,77 +1,70 @@
 package ss12_JavaCollectionFramework.ArrayList.Controller;
 
-import ss12_JavaCollectionFramework.ArrayList.Model.Service.ServiceProductManager;
-import ss12_JavaCollectionFramework.ArrayList.Model.model.ModelProduct;
+import ss12_JavaCollectionFramework.ArrayList.Model.Product;
+import ss12_JavaCollectionFramework.ArrayList.Model.Service.Service;
 
 import java.util.Scanner;
 
-public class ProductManager extends ServiceProductManager {
+public class ProductManager {
     public static void main(String[] args) {
+        Service service = new Service();
         Scanner sc = new Scanner(System.in);
 
-        ModelProduct danhSachSanPham = new ModelProduct();
+        int luaChon=0;
 
-        int luaChon = sc.nextInt();
+        do {
+            System.out.println("");
+            System.out.println("----------------------------");
+            System.out.println("----Chương trình quản lý sản phẩm----");
+            System.out.println("1.Thêm sản phẩm");
+            System.out.println("2.Sửa thông tin sản phẩm theo id");
+            System.out.println("3.Xoá sản phẩm theo id");
+            System.out.println("4.Hiển thị danh sách sản phẩm");
+            System.out.println("5.Tìm kiếm sản phẩm theo tên");
+            System.out.println("6.Sắp xếp sản phẩm tăng dần theo giá");
+            System.out.println("7.Sắp xếp sản phẩm giảm dần theo giá");
 
-        do{
-            System.out.println("-----Quản lí sản phẩm-----");
-            System.out.println(
-                    "1.Thêm sản phẩm\n" +
-                            "2.Sửa thông tin sản phẩm theo id\n" +
-                            "3.Xoá sản phẩm theo id\n" +
-                            "4.Hiển thị danh sách sản phẩm\n" +
-                            "5.Tìm kiếm sản phẩm theo tên\n" +
-                            "6.Sắp xếp sản phẩm tăng dần\n"+
-                            "7.giảm dần theo giá"
-            );
-            if(luaChon==1){
-                System.out.println("Nhap id san pham");
-                int id = Integer.parseInt(sc.nextLine());
-                System.out.println("Nhap ten san pham");
-                String name = sc.nextLine();
-                System.out.println("Nhap gia tien cua san pham");
-                double price = sc.nextDouble();
-                ModelProduct add = new ModelProduct(id, name, price);
+            luaChon = Integer.parseInt(sc.nextLine());
 
-            }
+            if (luaChon==1){
+                System.out.println("Nhap id");
+                int newId = Integer.parseInt(sc.nextLine()) ;
+                System.out.println("Nhap ten sp");
+                String newName = sc.nextLine();
+                System.out.println("Nhap gia tien");
+                double newPrice = Double.parseDouble(sc.nextLine());
+                Product product1 = new Product(newId,newName,newPrice);
+                service.add(product1);
+               }
             else if (luaChon==2){
                 System.out.println("Nhap id can sua");
-                int idOld = Integer.parseInt(sc.nextLine());
-                ModelProduct p = ServiceProductManager.findProducById(idOld);
-                if (p != null){
-                    System.out.println("Nhap id moi");
-                    int newId = Integer.parseInt(sc.nextLine());
-                    p.setId(newId);
+                int oldId = Integer.parseInt(sc.nextLine());
+                Product x = service.findById(oldId);
+                if (x!= null){
                     System.out.println("Nhap ten sp");
-                    String newNameProduct = sc.nextLine();
-                    p.setNameProduct(newNameProduct);
+                    String newName = sc.nextLine();
                     System.out.println("Nhap gia tien");
                     double newPrice = Double.parseDouble(sc.nextLine());
-                    p.setPrice(newPrice);
-                    ServiceProductManager.updateProduct(p);
-                }else {
-                    System.out.println("gia tri khong ton tai");
-                }
+                    x.setName(newName);
+                    x.setPrice(newPrice);
+                    service.update(x);
+                    }else System.out.println("Không tồn tại");
             }
             else if (luaChon==3){
-                System.out.println("Nhap id san pham can xoa");
-                int id = Integer.parseInt(sc.nextLine());
-                ServiceProductManager.removeProduct(id);
+                System.out.println("Nhap id muon xoa");
+                int oldId = Integer.parseInt(sc.nextLine());
+                Product x = service.findById(oldId);
+                if (x!= null){
+
+                }
             }
             else if (luaChon==4){
-                ServiceProductManager.listProduct();
-            }
-            else if (luaChon==5){
-                System.out.println("Nhap ten sp tim kiem");
-                Object nameProduct= sc.nextLine();
-                ServiceProductManager.seatchProduct(nameProduct);
-            }
-            else if (luaChon==6){
-                ServiceProductManager.sortAscendingOrder();
-            }
-            else if (luaChon==7){
-                ServiceProductManager.sortDescendingOrder();
+                service.list();
             }
         }while (luaChon!=0);
+
+
+
+
     }
 }
