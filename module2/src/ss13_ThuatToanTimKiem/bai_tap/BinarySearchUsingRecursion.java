@@ -29,20 +29,18 @@ public class BinarySearchUsingRecursion {
     }
 
     private static int binarySearch(int[] arr, int left, int right, int value) {
-        left = 0;
-        right = arr.length - 1;
 
-        while (left <= right) {
+        if (left <= right) {
             int mid = (left + right) / 2;
             if (arr[mid] == value) {
                 return mid;
             } else if (value > arr[mid]) {
                 return binarySearch(arr, mid + 1, right, value);
             } else {
-                return binarySearch(arr, mid - 1, right, value);
+                return binarySearch(arr, left , mid - 1, value);
             }
         }
-        return - 1;
+        return -1;
     }
 
 }
