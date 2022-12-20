@@ -32,18 +32,19 @@ public class Service implements IService {
         repository.list();
     }
 
-//    @Override
-//    public void search(String name) {
-//
-//    }
-//
-//    @Override
-//    public void sortAscendingOrder() {
-//
-//    }
-//
-//    @Override
-//    public void sortDescendingOrder() {
-//
-//    }
+    @Override
+    public void search(String name) {
+        repository.search(name);
+
+    }
+
+    @Override
+    public void sortAscendingOrder() {
+        repository.sortAscendingOrder();
+    }
+
+    @Override
+    public void sortDescendingOrder() {
+        repository.sortDescendingOrder();
+    }
 }

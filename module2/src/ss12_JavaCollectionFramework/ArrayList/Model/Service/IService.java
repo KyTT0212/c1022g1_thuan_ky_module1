@@ -9,8 +9,8 @@ public interface IService {
     void update(Product product);
     void remove(Product product);
     void list();
-//    void search(String name);
-//    void sortAscendingOrder();
-//    void sortDescendingOrder();
+    void search(String name);
+    void sortAscendingOrder();
+    void sortDescendingOrder();
 
 }

@@ -23,6 +23,7 @@ public class ProductManager {
             System.out.println("5.Tìm kiếm sản phẩm theo tên");
             System.out.println("6.Sắp xếp sản phẩm tăng dần theo giá");
             System.out.println("7.Sắp xếp sản phẩm giảm dần theo giá");
+            System.out.println("0.Ket thuc chuong trinh");
 
             luaChon = Integer.parseInt(sc.nextLine());
 
@@ -55,15 +56,28 @@ public class ProductManager {
                 int oldId = Integer.parseInt(sc.nextLine());
                 Product x = service.findById(oldId);
                 if (x!= null){
-
-                }
+                    service.remove(x);
+                }else System.out.println("Không tồn tại");
             }
             else if (luaChon==4){
                 service.list();
             }
+            else if (luaChon == 5){
+                System.out.println("Nhap ten san pham can tim");
+                String searchName = sc.nextLine();
+                service.search(searchName);
+            }
+            else if (luaChon==6){
+                service.sortAscendingOrder();
+            }
+            else if (luaChon==7){
+                service.sortDescendingOrder();
+            }else if (luaChon==0){
+
+            }else {
+                System.out.println("chuong trinh khong ton tai");
+            }
         }while (luaChon!=0);
-
-
 
 
     }
