@@ -4,6 +4,7 @@ import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -19,6 +20,7 @@ public class FileText<list> {
             String arr[];
 
             while ((line = bufferedReader.readLine())!=null){
+
                 arr = line.split(",");
                 int id = Integer.parseInt(arr[0]);
                 String sign = arr[1];
