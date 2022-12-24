@@ -77,9 +77,10 @@ public class ProductInformation {
         return "ProductInformation{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", dateOfManufacture=" + dateOfManufacture +
-                ", monthOfManufacture=" + monthOfManufacture +
-                ", yearOfManufacture=" + yearOfManufacture +
+//                ", dateOfManufacture=" + dateOfManufacture +
+//                ", monthOfManufacture=" + monthOfManufacture +
+//                ", yearOfManufacture=" + yearOfManufacture +
+                ", productionTime=" + productionTime() +
                 ", price=" + price +
                 '}';
     }
