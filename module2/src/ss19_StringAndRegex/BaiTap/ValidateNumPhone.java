@@ -1,4 +1,4 @@
-package ss19_StringAndRegex.ThucHanh;
+package ss19_StringAndRegex.BaiTap;
 
 import java.util.Scanner;
 
