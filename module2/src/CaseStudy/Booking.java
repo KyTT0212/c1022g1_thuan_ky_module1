@@ -1,4 +1,4 @@
-package CaseStudy.Task2;
+package CaseStudy;
 
 public class Booking {
 }
