@@ -1,13 +1,13 @@
 package CaseStudy.Model.model.Person;
 
 public class Customer extends Person {
-    private String customerType;
-    private String address;
+    private String customerType; //loại khách
+    private String address; //địa chỉ
 
     public Customer() {
     }
 
-    public Customer(int id, String name, int dateOfBirth, boolean sex, long numCMND, long numPhone, String email, String customerType, String address) {
+    public Customer(int id, String name, String dateOfBirth, boolean sex, long numCMND, long numPhone, String email, String customerType, String address) {
         super(id, name, dateOfBirth, sex, numCMND, numPhone, email);
         this.customerType = customerType;
         this.address = address;

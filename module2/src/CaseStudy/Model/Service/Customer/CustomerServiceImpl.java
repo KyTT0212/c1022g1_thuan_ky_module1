@@ -18,12 +18,12 @@ public class CustomerServiceImpl implements ICustomerService{
 
     @Override
     public Customer findByName(String name) {
-        return null;
+        return customerRepo.findByName(name);
     }
 
     @Override
     public void edit(Customer customer) {
-
+        customerRepo.edit(customer);
     }
 
 }

@@ -8,4 +8,5 @@ public interface ICustomerService extends IService {
     void add(Customer customer);
     Customer findByName(String name);
     void edit(Customer customer);
+
 }

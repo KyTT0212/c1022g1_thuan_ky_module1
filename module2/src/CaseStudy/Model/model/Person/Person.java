@@ -4,7 +4,7 @@ public class Person {
 
     private int id;
     private String name;
-    private int dateOfBirth;
+    private String dateOfBirth;
     private boolean sex = false;  //nam
     private long numCMND;
     private long numPhone;
@@ -13,7 +13,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(int id, String name, int dateOfBirth, boolean sex, long numCMND, long numPhone, String email) {
+    public Person(int id, String name, String dateOfBirth, boolean sex, long numCMND, long numPhone, String email) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -39,11 +39,11 @@ public class Person {
         this.name = name;
     }
 
-    public int getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(int dateOfBirth) {
+    public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
