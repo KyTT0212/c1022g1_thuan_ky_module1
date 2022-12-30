@@ -5,15 +5,15 @@ public class Person {
     private int id;
     private String name;
     private String dateOfBirth;
-    private boolean sex = false;  //nam
-    private long numCMND;
-    private long numPhone;
+    private String sex = "boy";
+    private String numCMND;
+    private String numPhone;
     private String email;
 
     public Person() {
     }
 
-    public Person(int id, String name, String dateOfBirth, boolean sex, long numCMND, long numPhone, String email) {
+    public Person(int id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -47,27 +47,27 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public boolean isSex() {
+    public String isSex() {
         return sex;
     }
 
-    public void setSex(boolean sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 
-    public long getNumCMND() {
+    public String getNumCMND() {
         return numCMND;
     }
 
-    public void setNumCMND(long numCMND) {
+    public void setNumCMND(String numCMND) {
         this.numCMND = numCMND;
     }
 
-    public long getNumPhone() {
+    public String getNumPhone() {
         return numPhone;
     }
 
-    public void setNumPhone(long numPhone) {
+    public void setNumPhone(String numPhone) {
         this.numPhone = numPhone;
     }
 

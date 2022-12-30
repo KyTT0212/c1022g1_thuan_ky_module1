@@ -1,16 +1,16 @@
 package CaseStudy.Model.model.Facility;
 
-public abstract class Furama {
-   private String serviceName;
-   private int usableArea;
-   private double price;
-   private int peopleMaximum;
-   private String rentalType;
+public abstract class Falicity {
+   private String serviceName;//Tên dịch vụ
+   private String usableArea;//Diện tích sử dụng
+   private String price;//Chi phí
+   private int peopleMaximum;//Số lượng người tối đa
+   private String rentalType;//Kiểu thuê(theo ngày tháng năm)
 
-    public Furama() {
+    public Falicity() {
     }
 
-    public Furama(String serviceName, int usableArea, double price, int peopleMaximum, String rentalType) {
+    public Falicity(String serviceName, String usableArea, String price, int peopleMaximum, String rentalType) {
         this.serviceName = serviceName;
         this.usableArea = usableArea;
         this.price = price;
@@ -26,19 +26,19 @@ public abstract class Furama {
         this.serviceName = serviceName;
     }
 
-    public int getUsableArea() {
+    public String getUsableArea() {
         return usableArea;
     }
 
-    public void setUsableArea(int usableArea) {
+    public void setUsableArea(String usableArea) {
         this.usableArea = usableArea;
     }
 
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 

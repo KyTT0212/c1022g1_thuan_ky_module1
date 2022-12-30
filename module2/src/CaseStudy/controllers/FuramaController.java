@@ -2,6 +2,7 @@ package CaseStudy.controllers;
 
 import CaseStudy.Model.Service.Customer.CustomerServiceImpl;
 import CaseStudy.Model.Service.Employee.EmployeeServiceImpl;
+import CaseStudy.Model.Service.Facility.FacilityServiceImpl;
 import CaseStudy.Model.model.Person.Customer;;
 
 import java.util.Scanner;
@@ -10,7 +11,7 @@ public class FuramaController {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int menu = 6;
+        int menu;
         do {
             System.out.println("-----displayMainMenu------");
             System.out.println("1.Employee Management (1.Quản lý nhân viên)");
@@ -22,26 +23,29 @@ public class FuramaController {
 
             menu = Integer.parseInt(sc.nextLine());
 
-            switch (menu){
+            switch (menu) {
 
                 case 1:
-                EmployeeController employeeController = new EmployeeController();
-                employeeController.employeeController();
-
+                    EmployeeController employeeController = new EmployeeController();
+                    employeeController.employeeController();
+                    break;
 
                 case 2:
                     CustomerController customerController = new CustomerController();
                     customerController.customerController();
+                    break;
+
+                case 3:
+                    FacilityController facilityController = new FacilityController();
+                    facilityController.facilityController();
+                    break;
 
 
+                default:
+                    System.out.println("--------Vui lòng nhập lại lựa chọn----------");
+                    break;
 
             }
-//            else if (luaChon == 3) {
-//                System.out.println("----MENU----");
-//                System.out.println("1. Display list facility (1. Cơ sở danh sách hiển thị)\n" +
-//                        "2. Add new facilities (2. Thêm tiện ích mới)\n" +
-//                        "3. Display list facility maintenance (3. Hiển thị danh sách bảo trì cơ sở)\n" +
-//                        "4. Return main menu (4. Quay lại menu chính)");
 //            } else if (luaChon == 4) {
 //                System.out.println("----MENU----");
 //                System.out.println("1.Add new booking (1.Thêm đặt phòng mới)\n" +

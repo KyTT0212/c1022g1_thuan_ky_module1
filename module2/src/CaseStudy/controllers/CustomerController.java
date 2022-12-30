@@ -2,11 +2,13 @@ package CaseStudy.controllers;
 
 import CaseStudy.Model.Service.Customer.CustomerServiceImpl;
 import CaseStudy.Model.model.Person.Customer;
+import sun.font.DelegatingShape;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class CustomerController {
-    public static Customer customerController() {
+    public static void customerController() {
         Scanner sc = new Scanner(System.in);
         CustomerServiceImpl customerService = new CustomerServiceImpl();
         int menu2;
@@ -30,17 +32,20 @@ public class CustomerController {
                     System.out.println("Nhập ngày sinh khách hàng");
                     String newDateOfBirth = sc.nextLine();
                     System.out.println("Nhập giới tính : nam, nữ");
-                    boolean newSex;
-                    String flag = sc.nextLine();
-                    if (flag == "nam") {
-                        newSex = false;
-                    } else {
-                        newSex = true;
-                    }
+                    String newSex = sc.nextLine();
+//                    boolean newSex;
+//                    String flag = sc.nextLine();
+//                    if (flag == "nam") {
+//                        newSex = false;
+//                    } else {
+//                        newSex = true;
+//                    }
                     System.out.println("Nhập số CMND khách hàng");
-                    long newCMND = Integer.parseInt(sc.nextLine());
+//                    long newCMND = Integer.parseInt(sc.nextLine());
+                    String newCMND = sc.nextLine();
                     System.out.println("Nhập số điện thoại khách hàng");
-                    long numPhone = Integer.parseInt(sc.nextLine());
+//                    long numPhone = Integer.parseInt(sc.nextLine());
+                    String numPhone = sc.nextLine();
                     System.out.println("Nhập email khách hàng");
                     String newEmail = sc.nextLine();
                     System.out.println("Nhập lever khách hàng");
@@ -73,76 +78,118 @@ public class CustomerController {
                     Customer customer1 = new Customer(newId, newName, newDateOfBirth, newSex, newCMND, numPhone, newEmail, newCustomerType, newAddress);
                     customerService.add(customer1);
                     break;
+
                 case 3:
-                    System.out.println("Nhập tên khách hàng muốn chỉnh sửa");
-                    String oldName = sc.nextLine();
-                    Customer x = customerService.findByName(oldName);
-                    if (x != null) {
-                    int choiceEdit = 10;
+//                    System.out.println("Nhập tên khách hàng muốn chỉnh sửa");
+//                    String oldName = sc.nextLine();
+//                    Customer x = customerService.findByName(oldName);
+//                    List<Customer> customerList = customerService.findAll();
+//                    int count = 0;
+//                    for (int i = 0; i < customerList.size(); i++) {
+//                        if (customerList.get(i).getName().equals(oldName)) {
+//                            System.out.println(customerList.get(i));
+//                            count++;
+//                        }
+//                    }
+//
+//
+//                    if (x != null) {
+//                        if (count > 1) {
+//
+//                            System.out.println("Chọn id muốn sửa");
+//                        int oldId= Integer.parseInt(sc.nextLine());
+//
+//                            for (int i = 0; i < customerList.size(); i++) {
+//                                if (oldId == customerList.get(i).getId()) {
+//                                    System.out.println(customerList.get(i));
+//                                    break;
+//                                }
+//                            }
+//
+//                        }
+//
+////                        }
 
+//                    c2
+                    List<Customer> customerList = customerService.findAll();
+                    for (int i = 0; i <customerList.size() ; i++) {
+                        System.out.println(customerList.get(i));
+                    }
 
-                    do {
-                        System.out.println("-------Chọn thông tin muốn sửa-------");
-                        System.out.println("1.Mã khách hàng");
-                        System.out.println("2.Họ tên khách khàng");
-                        System.out.println("3.Ngày sinh khách hàng");
-                        System.out.println("4.giới tính ");
-                        System.out.println("5.Số CMND khách hàng");
-                        System.out.println("6.Số điện thoại khách hàng");
-                        System.out.println("7.Email khách hàng");
-                        System.out.println("8.Lever khách hàng");
-                        System.out.println("9.Địa chỉ khách hàng");
-                        System.out.println("10.Thoát chọn");
+                    System.out.println("Nhập id muốn sửa");
+                    int oldId = Integer.parseInt(sc.nextLine());
+                    Customer y = customerService.findById(oldId);
+                    for (int i = 0; i < customerList.size(); i++) {
+                        if (customerList.get(i).getId() == oldId) {
+                            System.out.println(customerList.get(i));
+                        }
+                    }
 
+                    if (y!=null){
 
-                        Customer customer2 = new Customer();
-                        choiceEdit = Integer.parseInt(sc.nextLine());
+                    int choiceEdit;
+//                        Customer customer2 = new Customer();
 
+                        do {
+                            System.out.println("-------Chọn thông tin muốn sửa-------");
+                            System.out.println("1.Mã khách hàng");
+                            System.out.println("2.Họ tên khách khàng");
+                            System.out.println("3.Ngày sinh khách hàng");
+                            System.out.println("4.giới tính ");
+                            System.out.println("5.Số CMND khách hàng");
+                            System.out.println("6.Số điện thoại khách hàng");
+                            System.out.println("7.Email khách hàng");
+                            System.out.println("8.Lever khách hàng");
+                            System.out.println("9.Địa chỉ khách hàng");
+                            System.out.println("10.Thoát chọn");
 
+                            choiceEdit = Integer.parseInt(sc.nextLine());
 
-//                            System.out.println(x);
                             switch (choiceEdit) {
 
                                 case 1:
                                     System.out.println("Nhập mã khách hàng");
                                     int newId1 = Integer.parseInt(sc.nextLine());
-                                    customer2.setId(newId1);
+                                    y.setId(newId1);
                                     break;
                                 case 2:
                                     System.out.println("Nhập họ tên khách khàng");
                                     String newName1 = sc.nextLine();
-                                    customer2.setName(newName1);
+                                    y.setName(newName1);
                                     break;
                                 case 3:
                                     System.out.println("Nhập ngày sinh khách hàng");
                                     String newDateOfBirth1 = sc.nextLine();
-                                    customer2.setDateOfBirth(newDateOfBirth1);
+                                    y.setDateOfBirth(newDateOfBirth1);
                                     break;
                                 case 4:
                                     System.out.println("Nhập giới tính : nam,nữ");
-                                    boolean newSex1;
-                                    String flag1 = sc.nextLine();
-                                    if (flag1 == "nam") {
-                                        newSex1 = false;
-                                    } else {
-                                        newSex1 = true;
-                                    }
-                                    customer2.setSex(newSex1);
+//                                    boolean newSex1;
+//                                    String flag1 = sc.nextLine();
+//                                    if (flag1 == "nam") {
+//                                        newSex1 = false;
+//                                    } else {
+//                                        newSex1 = true;
+//                                    }
+                                    String newSex1 = sc.nextLine();
+                                    y.setSex(newSex1);
                                     break;
                                 case 5:
                                     System.out.println("Nhập số CMND khách hàng");
-                                    long newCMND1 = Integer.parseInt(sc.nextLine());
-                                    customer2.setNumCMND(newCMND1);
+//                                    long newCMND1 = Integer.parseInt(sc.nextLine());
+                                    String newCMND1 = sc.nextLine();
+                                    y.setNumCMND(newCMND1);
                                     break;
                                 case 6:
                                     System.out.println("Nhập số điện thoại khách hàng");
-                                    long numPhone1 = Integer.parseInt(sc.nextLine());
-                                    customer2.setNumPhone(numPhone1);
+//                                    long numPhone1 = Integer.parseInt(sc.nextLine());
+                                    String numPhone1 = sc.nextLine();
+                                    y.setNumPhone(numPhone1);
                                     break;
                                 case 7:
                                     System.out.println("Nhập email khách hàng");
                                     String newEmail1 = sc.nextLine();
-                                    customer2.setEmail(newEmail1);
+                                    y.setEmail(newEmail1);
                                     break;
                                 case 8:
                                     System.out.println("chọn lever khách hàng");
@@ -172,31 +219,36 @@ public class CustomerController {
 
 
                                     }
-                                    customer2.setCustomerType(newCustomerType1);
+                                    y.setCustomerType(newCustomerType1);
                                     break;
                                 case 9:
                                     System.out.println("Nhập địa chỉ khách hàng");
                                     String newAddress1 = sc.nextLine();
-                                    customer2.setAddress(newAddress1);
+                                    y.setAddress(newAddress1);
                                     break;
                                 case 10:
-                                    System.out.println("Thoát lựa chọn!");
+                                    System.out.println("Thoát chương trình!");
+                                    break;
                                 default:
-                                    System.out.println("Nhập sai chức năng");
+                                    System.out.println("-------Nhập sai chức năng vui lòng nhập lại!--------");
+                                    break;
                             }
 
-                        }while (choiceEdit != 10) ;
+
+                        } while (choiceEdit != 10);
+
+                         customerService.edit(y);
 
 
 
-                    }else {
-                        System.out.println("Thông tin sai hoặc không tồn tại!");
-                    }
-                default:
-                    System.out.println("Vui lòng nhập lại lựa chọn");
+            } else{
+                System.out.println("Thông tin sai hoặc không tồn tại!");
             }
+            default:
+                System.out.println("-------Vui lòng nhập lại lựa chọn---------");
 
-        }while (menu2 != 4) ;
-        return null;
-    }
+        }
+
+    } while(menu2 !=4);
+}
 }

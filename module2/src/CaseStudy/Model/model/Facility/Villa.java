@@ -1,14 +1,14 @@
 package CaseStudy.Model.model.Facility;
 
-public class Villa extends Furama {
-    private String standard;
-    private double swimmingArea;
-    private int numFloors;
+public class Villa extends Falicity {
+    private String standard;//Tiêu chuẩn phòng
+    private String swimmingArea;//Diện tích hồ bơi
+    private int numFloors;//Số tầng
 
     public Villa() {
     }
 
-    public Villa(String serviceName, int usableArea, double price, int peopleMaximum, String rentalType, String standard, double swimmingArea, int numFloors) {
+    public Villa(String serviceName, String usableArea, String price, int peopleMaximum, String rentalType, String standard, String swimmingArea, int numFloors) {
         super(serviceName, usableArea, price, peopleMaximum, rentalType);
         this.standard = standard;
         this.swimmingArea = swimmingArea;
@@ -23,11 +23,11 @@ public class Villa extends Furama {
         this.standard = standard;
     }
 
-    public double getSwimmingArea() {
+    public String getSwimmingArea() {
         return swimmingArea;
     }
 
-    public void setSwimmingArea(double swimmingArea) {
+    public void setSwimmingArea(String swimmingArea) {
         this.swimmingArea = swimmingArea;
     }
 
@@ -43,8 +43,8 @@ public class Villa extends Furama {
     public String toString() {
         return "Villa{" +
                 "standard='" + standard + '\'' +
-                ", swimmingArea=" + swimmingArea +
+                ", swimmingArea='" + swimmingArea + '\'' +
                 ", numFloors=" + numFloors +
-                '}';
+                "} " + super.toString();
     }
 }

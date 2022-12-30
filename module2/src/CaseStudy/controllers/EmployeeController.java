@@ -1,10 +1,9 @@
 package CaseStudy.controllers;
 
-import CaseStudy.Model.Service.Customer.CustomerServiceImpl;
 import CaseStudy.Model.Service.Employee.EmployeeServiceImpl;
-import CaseStudy.Model.model.Person.Customer;
 import CaseStudy.Model.model.Person.Employee;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class EmployeeController {
@@ -33,17 +32,20 @@ public class EmployeeController {
                     System.out.println("Nhập ngày sinh nhân viên");
                     String newDateOfBirth = sc.nextLine();
                     System.out.println("Nhập giới tính : nam, nữ");
-                    boolean newSex;
-                    String flag = sc.nextLine();
-                    if (flag == "nam") {
-                        newSex = false;
-                    } else {
-                        newSex = true;
-                    }
+                    String newSex = sc.nextLine();
+//                    boolean newSex;
+//                    String flag = sc.nextLine();
+//                    if (flag == "nam") {
+//                        newSex = false;
+//                    } else {
+//                        newSex = true;
+//                    }
                     System.out.println("Nhập số CMND nhân viên");
-                    long newCMND = Integer.parseInt(sc.nextLine());
+//                    long newCMND = Integer.parseInt(sc.nextLine());
+                    String newCMND = sc.nextLine();
                     System.out.println("Nhập số điện thoại nhân viên");
-                    long numPhone = Integer.parseInt(sc.nextLine());
+//                    long numPhone = Integer.parseInt(sc.nextLine());
+                    String numPhone = sc.nextLine();
                     System.out.println("Nhập email nhân viên");
                     String newEmail = sc.nextLine();
                     System.out.println("Nhập trình độ của nhân viên");
@@ -115,11 +117,25 @@ public class EmployeeController {
                     }
                     break;
                 case 4:
-                    System.out.println("Nhập tên nhân viên muốn chỉnh sửa");
-                    String oldName = sc.nextLine();
-                    Employee x = employeeService.findByName(oldName);
-                    if (x != null) {
-                        int choiceEdit = 11;
+//                    System.out.println("Nhập tên nhân viên muốn chỉnh sửa");
+//                    String oldName = sc.nextLine();
+//                    Employee x = employeeService.findByName(oldName);
+                    List<Employee> employeeList = employeeService.findAll();
+                    for (int i = 0; i <employeeList.size() ; i++) {
+                        System.out.println(employeeList.get(i));
+                    }
+
+                    System.out.println("Nhập id muốn sửa");
+                    int oldId = Integer.parseInt(sc.nextLine());
+                    Employee y = employeeService.findById(oldId);
+                    for (int i = 0; i < employeeList.size(); i++) {
+                        if (employeeList.get(i).getId() == oldId) {
+                            System.out.println(employeeList.get(i));
+                        }
+                    }
+
+                    if (y != null) {
+                        int choiceEdit ;
 
 
                         do {
@@ -137,7 +153,7 @@ public class EmployeeController {
                             System.out.println("11.Thoát chọn");
 
 
-                            Employee employee2 = new Employee();
+//                            Employee employee2 = new Employee();
                             choiceEdit = Integer.parseInt(sc.nextLine());
 
 
@@ -147,43 +163,46 @@ public class EmployeeController {
                                 case 1:
                                     System.out.println("Nhập mã nhân viên");
                                     int newId1 = Integer.parseInt(sc.nextLine());
-                                    employee2.setId(newId1);
+                                    y.setId(newId1);
                                     break;
                                 case 2:
                                     System.out.println("Nhập họ tên nhân viên");
                                     String newName1 = sc.nextLine();
-                                    employee2.setName(newName1);
+                                    y.setName(newName1);
                                     break;
                                 case 3:
                                     System.out.println("Nhập ngày sinh nhân viên");
                                     String newDateOfBirth1 = sc.nextLine();
-                                    employee2.setDateOfBirth(newDateOfBirth1);
+                                    y.setDateOfBirth(newDateOfBirth1);
                                     break;
                                 case 4:
                                     System.out.println("Nhập giới tính : nam,nữ");
-                                    boolean newSex1;
-                                    String flag1 = sc.nextLine();
-                                    if (flag1 == "nam") {
-                                        newSex1 = false;
-                                    } else {
-                                        newSex1 = true;
-                                    }
-                                    employee2.setSex(newSex1);
+//                                    boolean newSex1;
+//                                    String flag1 = sc.nextLine();
+//                                    if (flag1 == "nam") {
+//                                        newSex1 = false;
+//                                    } else {
+//                                        newSex1 = true;
+//                                    }
+                                    String newSex1 = sc.nextLine();
+                                    y.setSex(newSex1);
                                     break;
                                 case 5:
                                     System.out.println("Nhập số CMND nhân viên");
-                                    long newCMND1 = Integer.parseInt(sc.nextLine());
-                                    employee2.setNumCMND(newCMND1);
+//                                    long newCMND1 = Integer.parseInt(sc.nextLine());
+                                    String newCMND1 = sc.nextLine();
+                                    y.setNumCMND(newCMND1);
                                     break;
                                 case 6:
                                     System.out.println("Nhập số điện thoại nhân viên");
-                                    long numPhone1 = Integer.parseInt(sc.nextLine());
-                                    employee2.setNumPhone(numPhone1);
+//                                    long numPhone1 = Integer.parseInt(sc.nextLine());
+                                    String numPhone1 = sc.nextLine();
+                                    y.setNumPhone(numPhone1);
                                     break;
                                 case 7:
                                     System.out.println("Nhập email nhân viên");
                                     String newEmail1 = sc.nextLine();
-                                    employee2.setEmail(newEmail1);
+                                    y.setEmail(newEmail1);
                                     break;
                                 case 8:
                                     System.out.println("chọn trình độ nhân viên");
@@ -207,7 +226,7 @@ public class EmployeeController {
                                             newLevelType = "Sau đại học";
                                             break;
                                     }
-                                    employee2.setLevel(newLevelType);
+                                    y.setLevel(newLevelType);
                                     break;
                                 case 9:
                                     System.out.println("Chọn vị trí nhân viên");
@@ -239,27 +258,29 @@ public class EmployeeController {
                                             newPositionType = "Giám đốc";
                                             break;
                                     }
-                                    employee2.setLevel(newPositionType);
+                                    y.setLevel(newPositionType);
                                     break;
                                 case 10:
                                     System.out.println("Nhập lương nhân viên");
                                     double newWage1 = Double.parseDouble(sc.nextLine());
-                                    employee2.setWage(newWage1);
+                                    y.setWage(newWage1);
                                     break;
                                 case 11:
                                     System.out.println("Thoát lựa chọn!");
+                                    break;
                                 default:
-                                    System.out.println("Nhập sai chức năng");
+                                    System.out.println("--------Nhập sai chức năng vui lòng nhập lại!--------");
+                                    break;
                             }
 
                         } while (choiceEdit != 11);
-
+                        employeeService.edit(y);
 
                     } else {
                         System.out.println("Thông tin sai hoặc không tồn tại!");
                     }
                 default:
-                    System.out.println("Vui lòng nhập lại lựa chọn");
+                    System.out.println("-----Vui lòng nhập lại lựa chọn-------");
             }
 
         } while (menu1 != 5);
