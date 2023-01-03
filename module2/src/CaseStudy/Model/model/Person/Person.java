@@ -2,7 +2,7 @@ package CaseStudy.Model.model.Person;
 
 public class Person {
 
-    private int id;
+    private String id;
     private String name;
     private String dateOfBirth;
     private String sex = "boy";
@@ -13,7 +13,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(int id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email) {
+    public Person(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -23,11 +23,11 @@ public class Person {
         this.email = email;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

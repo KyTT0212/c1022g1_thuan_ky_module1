@@ -9,7 +9,7 @@ public interface ICustomerService {
     List<Customer> findAll();
     void add(Customer customer);
     Customer findByName(String name);
-    Customer findById (int id);
+    Customer findById (String id);
     void edit(Customer customer);
 
 }

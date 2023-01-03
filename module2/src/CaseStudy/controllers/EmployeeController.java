@@ -26,7 +26,7 @@ public class EmployeeController {
                     break;
                 case 2:
                     System.out.println("Nhập mã nhân viên");
-                    int newId = Integer.parseInt(sc.nextLine());
+                    String newId = sc.nextLine();
                     System.out.println("Nhập họ tên nhân viên");
                     String newName = sc.nextLine();
                     System.out.println("Nhập ngày sinh nhân viên");
@@ -126,7 +126,7 @@ public class EmployeeController {
                     }
 
                     System.out.println("Nhập id muốn sửa");
-                    int oldId = Integer.parseInt(sc.nextLine());
+                    String oldId = sc.nextLine();
                     Employee y = employeeService.findById(oldId);
                     for (int i = 0; i < employeeList.size(); i++) {
                         if (employeeList.get(i).getId() == oldId) {
@@ -162,7 +162,7 @@ public class EmployeeController {
 
                                 case 1:
                                     System.out.println("Nhập mã nhân viên");
-                                    int newId1 = Integer.parseInt(sc.nextLine());
+                                    String newId1 = sc.nextLine();
                                     y.setId(newId1);
                                     break;
                                 case 2:

@@ -7,7 +7,7 @@ public class Room extends Falicity {
 
    }
 
-   public Room(String serviceName, String usableArea, String price, int peopleMaximum, String rentalType, String accompaniedServiceFree) {
+   public Room(String serviceName, String usableArea, String price, String peopleMaximum, String rentalType, String accompaniedServiceFree) {
       super(serviceName, usableArea, price, peopleMaximum, rentalType);
       this.accompaniedServiceFree = accompaniedServiceFree;
    }

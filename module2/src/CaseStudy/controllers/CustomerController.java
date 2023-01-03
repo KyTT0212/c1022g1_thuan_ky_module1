@@ -26,7 +26,7 @@ public class CustomerController {
                     break;
                 case 2:
                     System.out.println("Nhập mã khách hàng");
-                    int newId = Integer.parseInt(sc.nextLine());
+                    String newId = sc.nextLine();
                     System.out.println("Nhập họ tên khách khàng");
                     String newName = sc.nextLine();
                     System.out.println("Nhập ngày sinh khách hàng");
@@ -117,7 +117,7 @@ public class CustomerController {
                     }
 
                     System.out.println("Nhập id muốn sửa");
-                    int oldId = Integer.parseInt(sc.nextLine());
+                    String oldId = sc.nextLine();
                     Customer y = customerService.findById(oldId);
                     for (int i = 0; i < customerList.size(); i++) {
                         if (customerList.get(i).getId() == oldId) {
@@ -149,7 +149,7 @@ public class CustomerController {
 
                                 case 1:
                                     System.out.println("Nhập mã khách hàng");
-                                    int newId1 = Integer.parseInt(sc.nextLine());
+                                    String newId1 = sc.nextLine();
                                     y.setId(newId1);
                                     break;
                                 case 2:

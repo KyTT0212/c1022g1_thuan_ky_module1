@@ -9,10 +9,10 @@ public class CustomerRepo implements ICustomerRepo {
     static List<Customer> myCustomerList = new ArrayList<>();
 
     static {
-        myCustomerList.add(new Customer(1, "Anh", "02/4/2004", "BOY", "012345677544", "0212565775", "hung@gmail.com", "Gold", "12/abcd,VN"));
-        myCustomerList.add(new Customer(2, "Hoa", "11/07/2004", "GIRL", "026446654164", "0754656665", "hoa123@gmail.com", "Silver", "485/zxc/adsd,VN"));
-        myCustomerList.add(new Customer(3, "Nam", "12/07/1998", "BOY", "000742475754", "0754656665", "nammm147@gmail.com", "Diamond", "1445/sdzxa/China"));
-        myCustomerList.add(new Customer(4, "Nam", "18/07/1887", "BOY", "789563252", "1154854541", "nammm147@gmail.com", "Diamond", "1445/sdzxa/China"));
+        myCustomerList.add(new Customer("1", "Anh", "02/4/2004", "BOY", "012345677544", "0212565775", "hung@gmail.com", "Gold", "12/abcd,VN"));
+        myCustomerList.add(new Customer("2", "Hoa", "11/07/2004", "GIRL", "026446654164", "0754656665", "hoa123@gmail.com", "Silver", "485/zxc/adsd,VN"));
+        myCustomerList.add(new Customer("3", "Nam", "12/07/1998", "BOY", "000742475754", "0754656665", "nammm147@gmail.com", "Diamond", "1445/sdzxa/China"));
+        myCustomerList.add(new Customer("4", "Nam", "18/07/1887", "BOY", "789563252", "1154854541", "nammm147@gmail.com", "Diamond", "1445/sdzxa/China"));
     }
 
     @Override
@@ -39,7 +39,7 @@ public class CustomerRepo implements ICustomerRepo {
     }
 
     @Override
-    public Customer finById(int id) {
+    public Customer finById(String id) {
         for (Customer y : myCustomerList){
             if (y.getId() == id){
                 return y;

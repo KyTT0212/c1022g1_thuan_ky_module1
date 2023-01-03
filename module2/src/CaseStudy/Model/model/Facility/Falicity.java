@@ -4,13 +4,13 @@ public abstract class Falicity {
    private String serviceName;//Tên dịch vụ
    private String usableArea;//Diện tích sử dụng
    private String price;//Chi phí
-   private int peopleMaximum;//Số lượng người tối đa
+   private String peopleMaximum;//Số lượng người tối đa
    private String rentalType;//Kiểu thuê(theo ngày tháng năm)
 
     public Falicity() {
     }
 
-    public Falicity(String serviceName, String usableArea, String price, int peopleMaximum, String rentalType) {
+    public Falicity(String serviceName, String usableArea, String price, String peopleMaximum, String rentalType) {
         this.serviceName = serviceName;
         this.usableArea = usableArea;
         this.price = price;
@@ -42,11 +42,11 @@ public abstract class Falicity {
         this.price = price;
     }
 
-    public int getPeopleMaximum() {
+    public String getPeopleMaximum() {
         return peopleMaximum;
     }
 
-    public void setPeopleMaximum(int peopleMaximum) {
+    public void setPeopleMaximum(String peopleMaximum) {
         this.peopleMaximum = peopleMaximum;
     }
 

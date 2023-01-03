@@ -12,13 +12,13 @@ public class FacilityRepo implements IFacilityRepo {
     public static Map<Falicity, Integer> furumaMaintenance = new LinkedHashMap<>();
 
     static {
-        furuma.put(new Room("SVRO_GOLD_001", "30m2", "22tr", 3, "month", "free wifi,don phong"), 1);
-        furuma.put(new Room("SVRO_VIP_001", "45m2", "30tr", 5, "month", "free wifi,free water,don phong"), 2);
-        furuma.put(new Villa("SVVL_VIPP_001", "700M2", "8tr", 40, "day", "view sea,bar,golf course", "35m2", 5), 10);
+        furuma.put(new Room("SVRO_GOLD_001", "30m2", "22tr", "3", "month", "free wifi,don phong"), 1);
+        furuma.put(new Room("SVRO_VIP_001", "45m2", "30tr", "5", "month", "free wifi,free water,don phong"), 2);
+        furuma.put(new Villa("SVVL_VIPP_001", "700M2", "8tr", "40", "day", "view sea,bar,golf course", "35m2", "5"), 10);
 
-        furumaMaintenance.put(new Room("SVRO_VIP_004", "45m2", "30tr", 5, "month", "free wifi,free water,don phong"), 10);
-        furumaMaintenance.put(new Villa("SVVL_MENBER_001", "100M2", "3.8tr", 15, "day", "view sea,bar,golf course", "20m2", 7), 7);
-        furumaMaintenance.put(new Villa("SVVL_SILVER_001", "700M2", "8tr", 40, "day", "view sea,bar,golf course", "25m2", 5), 8);
+        furumaMaintenance.put(new Room("SVRO_VIP_004", "45m2", "30tr", "5", "month", "free wifi,free water,don phong"), 11);
+        furumaMaintenance.put(new Villa("SVVL_MENBER_001", "100M2", "3.8tr", "15", "day", "view sea,bar,golf course", "20m2", "7"),7);
+        furumaMaintenance.put(new Villa("SVVL_SILVER_001", "700M2", "8tr", "40", "day", "view sea,bar,golf course", "25m2", "5"), 6);
     }
 
     @Override
@@ -33,7 +33,7 @@ public class FacilityRepo implements IFacilityRepo {
 
     @Override
     public void add(Falicity falicity1, int number) {
-        if (number < 5) {
+        if (number<5) {
             furuma.put(falicity1, number);
         } else {
             furumaMaintenance.put(falicity1, number);

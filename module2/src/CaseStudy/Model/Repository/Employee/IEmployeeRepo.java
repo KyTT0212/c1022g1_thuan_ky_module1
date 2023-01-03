@@ -8,7 +8,7 @@ public interface IEmployeeRepo {
     void list( );
     void add(Employee employee);
     Employee findByName(String name);
-    Employee findById(int id);
+    Employee findById(String id);
     void delete(Employee employee);
     void edit(Employee employee);
     List<Employee> findAll();

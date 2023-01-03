@@ -8,7 +8,7 @@ public interface ICustomerRepo {
     void list();
     void add(Customer customer);
     Customer findByName(String name);
-    Customer finById (int id);
+    Customer finById (String id);
     void edit(Customer customer);
     List<Customer> findAll();
 }

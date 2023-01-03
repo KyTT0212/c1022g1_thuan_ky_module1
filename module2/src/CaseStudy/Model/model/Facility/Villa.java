@@ -3,12 +3,12 @@ package CaseStudy.Model.model.Facility;
 public class Villa extends Falicity {
     private String standard;//Tiêu chuẩn phòng
     private String swimmingArea;//Diện tích hồ bơi
-    private int numFloors;//Số tầng
+    private String numFloors;//Số tầng
 
     public Villa() {
     }
 
-    public Villa(String serviceName, String usableArea, String price, int peopleMaximum, String rentalType, String standard, String swimmingArea, int numFloors) {
+    public Villa(String serviceName, String usableArea, String price, String peopleMaximum, String rentalType, String standard, String swimmingArea, String numFloors) {
         super(serviceName, usableArea, price, peopleMaximum, rentalType);
         this.standard = standard;
         this.swimmingArea = swimmingArea;
@@ -31,11 +31,11 @@ public class Villa extends Falicity {
         this.swimmingArea = swimmingArea;
     }
 
-    public int getNumFloors() {
+    public String getNumFloors() {
         return numFloors;
     }
 
-    public void setNumFloors(int numFloors) {
+    public void setNumFloors(String numFloors) {
         this.numFloors = numFloors;
     }
 

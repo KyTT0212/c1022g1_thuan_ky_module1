@@ -9,9 +9,9 @@ public class EmployeeRepo implements IEmployeeRepo{
     static List<Employee> myEmployeeList = new ArrayList<>();
 
     static {
-        myEmployeeList.add(new Employee(1,"huong","11/4/1998","GIRL","1234548966","456625623","huong@gmail.com","cao đẳng","phục vụ",8.5 ));
-        myEmployeeList.add(new Employee(2,"hong","12/5/1887","GIRL","1949659866","785465655","hong@gmail.com","cao đẳng","phục vụ",8 ));
-        myEmployeeList.add(new Employee(3,"thom","22/9/1789","GIRL","1185461615","216659798","thom@gmail.com","cao đẳng","phục vụ",7.9 ));
+        myEmployeeList.add(new Employee("1","huong","11/4/1998","GIRL","1234548966","456625623","huong@gmail.com","cao đẳng","phục vụ",8.5 ));
+        myEmployeeList.add(new Employee("2","hong","12/5/1887","GIRL","1949659866","785465655","hong@gmail.com","cao đẳng","phục vụ",8 ));
+        myEmployeeList.add(new Employee("3","thom","22/9/1789","GIRL","1185461615","216659798","thom@gmail.com","cao đẳng","phục vụ",7.9 ));
     }
     @Override
     public void list() {
@@ -35,7 +35,7 @@ public class EmployeeRepo implements IEmployeeRepo{
     }
 
     @Override
-    public Employee findById(int id) {
+    public Employee findById(String id) {
         for(Employee y : myEmployeeList){
             if (y.getId()== id){
                 return y;
