@@ -3,12 +3,12 @@ package CaseStudy.Model.model.Person;
 public class Employee extends Person {
     private String level;
     private String position;
-    private double wage;
+    private String wage;
 
-    public Employee() {
+    public Employee(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email, String customerType, String address) {
     }
 
-    public Employee(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email, String level, String position, double wage) {
+    public Employee(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email, String level, String position, String wage) {
         super(id, name, dateOfBirth, sex, numCMND, numPhone, email);
         this.level = level;
         this.position = position;
@@ -31,11 +31,11 @@ public class Employee extends Person {
         this.position = position;
     }
 
-    public double getWage() {
+    public String getWage() {
         return wage;
     }
 
-    public void setWage(double wage) {
+    public void setWage(String wage) {
         this.wage = wage;
     }
 
