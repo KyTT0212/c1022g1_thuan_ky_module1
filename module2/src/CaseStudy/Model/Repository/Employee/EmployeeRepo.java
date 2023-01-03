@@ -1,5 +1,7 @@
 package CaseStudy.Model.Repository.Employee;
 
+import CaseStudy.Data.ReadFile;
+import CaseStudy.Data.WriteFile;
 import CaseStudy.Model.model.Person.Employee;
 
 import java.util.ArrayList;
@@ -17,12 +19,13 @@ public class EmployeeRepo implements IEmployeeRepo{
     public void list() {
         for (int i = 0; i <myEmployeeList.size() ; i++) {
             System.out.println(myEmployeeList.get(i));
-        }
+        }myEmployeeList = ReadFile.readFileEmployee();
     }
 
     @Override
     public void add(Employee employee) {
         myEmployeeList.add(employee);
+        WriteFile.writeEmployee(myEmployeeList);
     }
 
     @Override

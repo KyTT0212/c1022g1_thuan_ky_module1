@@ -5,7 +5,7 @@ public class Person {
     private String id;
     private String name;
     private String dateOfBirth;
-    private String sex = "boy";
+    private String sex ;
     private String numCMND;
     private String numPhone;
     private String email;
@@ -47,7 +47,7 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String isSex() {
+    public String getSex() {
         return sex;
     }
 

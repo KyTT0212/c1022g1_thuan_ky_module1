@@ -11,14 +11,19 @@ public class CustomerController {
     public static void customerController() {
         Scanner sc = new Scanner(System.in);
         CustomerServiceImpl customerService = new CustomerServiceImpl();
-        int menu2;
+        int menu2 = 0;
         do {
             System.out.println("----MENU----");
             System.out.println("1.Display list customers (1.Hiển thị danh sách khách hàng)\n" +
                     "2.Add new customer (2.Thêm khách hàng mới)\n" +
                     "3.Edit customer (3.Chỉnh sửa khách hàng)\n" +
                     "4.Return main menu (4.Trở lại menu chính)");
-            menu2 = Integer.parseInt(sc.nextLine());
+            try {
+                menu2 = Integer.parseInt(sc.nextLine());
+            }catch (NumberFormatException e ){
+                e.printStackTrace();
+            }
+
 
             switch (menu2) {
                 case 1:

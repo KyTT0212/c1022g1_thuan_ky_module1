@@ -11,7 +11,7 @@ public class FuramaController {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int menu;
+        int menu=0;
         do {
             System.out.println("-----displayMainMenu------");
             System.out.println("1.Employee Management (1.Quản lý nhân viên)");
@@ -21,7 +21,11 @@ public class FuramaController {
             System.out.println("5.Promotion Management (5.Quản lý khuyến mãi)");
             System.out.println("6.Exit (6.Thoát)");
 
-            menu = Integer.parseInt(sc.nextLine());
+            try {
+                menu = Integer.parseInt(sc.nextLine());
+            }catch (NumberFormatException e){
+                e.printStackTrace();
+            }
 
             switch (menu) {
 
@@ -39,6 +43,9 @@ public class FuramaController {
                     FacilityController facilityController = new FacilityController();
                     facilityController.facilityController();
                     break;
+
+
+
 
 
                 default:

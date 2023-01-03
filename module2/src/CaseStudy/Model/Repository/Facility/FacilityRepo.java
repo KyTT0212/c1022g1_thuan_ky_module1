@@ -31,6 +31,7 @@ public class FacilityRepo implements IFacilityRepo {
         }
     }
 
+
     @Override
     public void add(Falicity falicity1, int number) {
         if (number<5) {

@@ -10,7 +10,7 @@ public class EmployeeController {
     public static void employeeController() {
         Scanner sc = new Scanner(System.in);
         EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
-        int menu1;
+        int menu1 = 0;
         do {
             System.out.println("----MENU----");
             System.out.println("1.Display list employees (1.Hiển thị danh sách nhân viên)");
@@ -18,8 +18,12 @@ public class EmployeeController {
             System.out.println("3.Delete employee (3.Xóa nhân viên)");
             System.out.println("4.Edit employee (4.Sửa nhân viên)");
             System.out.println("5.Return main menu (5. Quay lại menu chính)");
-            menu1 = Integer.parseInt(sc.nextLine());
-
+            
+            try {
+                menu1 = Integer.parseInt(sc.nextLine());
+            }catch (NumberFormatException e ){
+                e.printStackTrace();
+            }
             switch (menu1) {
                 case 1:
                     employeeService.list();
@@ -101,7 +105,7 @@ public class EmployeeController {
                             break;
                     }
                     System.out.println("Nhập lương nhân viên");
-                    double newWage = Double.parseDouble(sc.nextLine());
+                    String newWage = sc.nextLine();
 
                     Employee employee1 = new Employee(newId, newName, newDateOfBirth, newSex, newCMND, numPhone, newEmail, newLevel, newPosition, newWage);
                     employeeService.add(employee1);
@@ -262,7 +266,7 @@ public class EmployeeController {
                                     break;
                                 case 10:
                                     System.out.println("Nhập lương nhân viên");
-                                    double newWage1 = Double.parseDouble(sc.nextLine());
+                                    String newWage1 = sc.nextLine();
                                     y.setWage(newWage1);
                                     break;
                                 case 11:

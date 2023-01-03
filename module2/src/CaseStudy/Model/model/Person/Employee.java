@@ -5,7 +5,7 @@ public class Employee extends Person {
     private String position;
     private String wage;
 
-    public Employee(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email, String customerType, String address) {
+    public Employee() {
     }
 
     public Employee(String id, String name, String dateOfBirth, String sex, String numCMND, String numPhone, String email, String level, String position, String wage) {

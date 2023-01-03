@@ -1,4 +1,4 @@
-package CaseStudy;
+package CaseStudy.Data;
 
 public class RegexExpression {
     //    Mã dịch vụ villa

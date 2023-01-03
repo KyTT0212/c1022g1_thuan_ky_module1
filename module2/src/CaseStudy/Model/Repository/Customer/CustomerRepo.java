@@ -1,5 +1,7 @@
 package CaseStudy.Model.Repository.Customer;
 
+import CaseStudy.Data.ReadFile;
+import CaseStudy.Data.WriteFile;
 import CaseStudy.Model.model.Person.Customer;
 
 import java.util.ArrayList;
@@ -19,12 +21,13 @@ public class CustomerRepo implements ICustomerRepo {
     public void list() {
         for (int i = 0; i < myCustomerList.size(); i++) {
             System.out.println(myCustomerList.get(i));
-        }
+        }myCustomerList= ReadFile.readFileCustomer();
     }
 
     @Override
     public void add(Customer customer) {
         myCustomerList.add(customer);
+        WriteFile.writeCustomer(myCustomerList);
     }
 
     @Override

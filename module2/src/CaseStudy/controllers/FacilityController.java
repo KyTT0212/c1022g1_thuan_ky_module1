@@ -3,7 +3,7 @@ package CaseStudy.controllers;
 import CaseStudy.Model.Service.Facility.FacilityServiceImpl;
 import CaseStudy.Model.model.Facility.Room;
 import CaseStudy.Model.model.Facility.Villa;
-import CaseStudy.RegexExpression;
+import CaseStudy.Data.RegexExpression;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class FacilityController {
     public static void facilityController(){
         Scanner sc = new Scanner(System.in);
         FacilityServiceImpl facilityService = new FacilityServiceImpl();
-        int menu3;
+        int menu3 = 0;
 
         do {
                 System.out.println("----MENU----");
@@ -20,7 +20,12 @@ public class FacilityController {
                         "3. Display list facility maintenance (3. Hiển thị danh sách bảo trì cơ sở)\n" +
                         "4. Return main menu (4. Quay lại menu chính)");
 
-                menu3 = Integer.parseInt(sc.nextLine());
+                try {
+                    menu3 = Integer.parseInt(sc.nextLine());
+                }catch (NumberFormatException e ){
+                    e.printStackTrace();
+                }
+
                 switch (menu3){
                     case 1:
                         facilityService.displayList();
