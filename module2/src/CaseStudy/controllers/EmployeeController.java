@@ -22,7 +22,7 @@ public class EmployeeController {
             try {
                 menu1 = Integer.parseInt(sc.nextLine());
             }catch (NumberFormatException e ){
-                e.printStackTrace();
+                System.err.println("Vui lòng nhập số!");;
             }
             switch (menu1) {
                 case 1:
@@ -59,7 +59,13 @@ public class EmployeeController {
                             "4.Sau đại học"
                     );
                     String newLevel = "";
-                    int choiceEmployeeLevel = Integer.parseInt(sc.nextLine());
+                    int choiceEmployeeLevel=0;
+                    try {
+                        choiceEmployeeLevel= Integer.parseInt(sc.nextLine());
+                    } catch (NumberFormatException e) {
+                        System.err.println("Vui lòng nhập số!");
+                    }
+
                     switch (choiceEmployeeLevel) {
                         case 1:
                             newLevel = "Trung cấp";
@@ -83,7 +89,13 @@ public class EmployeeController {
                             "6. Giám đốc"
                     );
                     String newPosition = "";
-                    int choiceEmployeePosition = Integer.parseInt(sc.nextLine());
+                    int choiceEmployeePosition=0;
+                         try {
+                             choiceEmployeePosition = Integer.parseInt(sc.nextLine());
+                         } catch (NumberFormatException e) {
+                             System.err.println("Vui lòng nhập số");
+                         }
+
                     switch (choiceEmployeePosition) {
                         case 1:
                             newPosition = "Lễ tân ";
@@ -139,7 +151,7 @@ public class EmployeeController {
                     }
 
                     if (y != null) {
-                        int choiceEdit ;
+                        int choiceEdit = 0 ;
 
 
                         do {
@@ -158,7 +170,10 @@ public class EmployeeController {
 
 
 //                            Employee employee2 = new Employee();
-                            choiceEdit = Integer.parseInt(sc.nextLine());
+                            try {
+                                choiceEdit = Integer.parseInt(sc.nextLine());
+                            } catch (NumberFormatException e) {
+                                System.err.println("Vui lòng nhập số!");                            }
 
 
 //                            System.out.println(x);
@@ -210,28 +225,39 @@ public class EmployeeController {
                                     break;
                                 case 8:
                                     System.out.println("chọn trình độ nhân viên");
-                                    System.out.println("1. Trung cấp\n" +
-                                            "2. Cao đẳng\n" +
-                                            "3. Đại học \n" +
-                                            "4. Sau đại học");
-                                    String newLevelType = "";
-                                    int choice1 = Integer.parseInt(sc.nextLine());
-                                    switch (choice1) {
-                                        case 1:
-                                            newLevelType = "Trung cấp";
-                                            break;
-                                        case 2:
-                                            newLevelType = "Cao đẳng";
-                                            break;
-                                        case 3:
-                                            newLevelType = " Đại học ";
-                                            break;
-                                        case 4:
-                                            newLevelType = "Sau đại học";
-                                            break;
-                                    }
-                                    y.setLevel(newLevelType);
-                                    break;
+//                                    int choice1=0;
+
+                                        System.out.println("1. Trung cấp\n" +
+                                                "2. Cao đẳng\n" +
+                                                "3. Đại học \n" +
+                                                "4. Sau đại học");
+                                        String newLevelType = "";
+                                        int choice1 = Integer.parseInt(sc.nextLine());
+//                                        do {
+//                                        try {
+//                                            choice1= Integer.parseInt(sc.nextLine());
+//                                        } catch (NumberFormatException e) {
+//                                            System.err.println("Vui lòng nhập số!");
+//                                        }
+//                                    }while (choice1>4);
+
+                                        switch (choice1) {
+                                            case 1:
+                                                newLevelType = "Trung cấp";
+                                                break;
+                                            case 2:
+                                                newLevelType = "Cao đẳng";
+                                                break;
+                                            case 3:
+                                                newLevelType = " Đại học ";
+                                                break;
+                                            case 4:
+                                                newLevelType = "Sau đại học";
+                                                break;
+                                        }
+                                        y.setLevel(newLevelType);
+                                        break;
+
                                 case 9:
                                     System.out.println("Chọn vị trí nhân viên");
                                     System.out.println("1. Lễ tân\n" +
@@ -241,7 +267,13 @@ public class EmployeeController {
                                             "5. Quản lí \n" +
                                             "6. Giám đốc");
                                     String newPositionType = "";
-                                    int choice2 = Integer.parseInt(sc.nextLine());
+                                    int choice2=0;
+                                    try {
+                                        choice2= Integer.parseInt(sc.nextLine());
+                                    } catch (NumberFormatException e) {
+                                        System.err.println("Vui lòng nhập số!");
+                                    }
+
                                     switch (choice2) {
                                         case 1:
                                             newPositionType = "Lễ tân";
@@ -281,10 +313,10 @@ public class EmployeeController {
                         employeeService.edit(y);
 
                     } else {
-                        System.out.println("Thông tin sai hoặc không tồn tại!");
+                        System.err.println("Thông tin sai hoặc không tồn tại!");
                     }
                 default:
-                    System.out.println("-----Vui lòng nhập lại lựa chọn-------");
+                    System.err.println("-----Vui lòng nhập lại lựa chọn-------");
             }
 
         } while (menu1 != 5);

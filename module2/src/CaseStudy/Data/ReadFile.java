@@ -1,9 +1,11 @@
 package CaseStudy.Data;
 
+import CaseStudy.Model.model.Facility.Falicity;
 import CaseStudy.Model.model.Facility.Room;
 import CaseStudy.Model.model.Facility.Villa;
 import CaseStudy.Model.model.Person.Customer;
 import CaseStudy.Model.model.Person.Employee;
+import CaseStudy.controllers.FacilityController;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -17,8 +19,7 @@ import java.util.Map;
 public class ReadFile {
     public static final String PATH_EMPLOYEE = "src\\CaseStudy\\Data\\CSV\\Employee.csv";
     public static final String PATH_CUSTOMER = "src\\CaseStudy\\Data\\CSV\\Customer.csv";
-    public static final String PATH_ROOM = "src\\CaseStudy\\Data\\CSV\\Room.csv";
-    public static final String PATH_VILLA = "src\\CaseStudy\\Data\\CSV\\Villa.csv";
+    public static final String PATH_FACILITY = "src\\CaseStudy\\Data\\CSV\\Facility.csv";
     public static final String PATH_BOOKING = "";
 
 
@@ -109,58 +110,32 @@ public class ReadFile {
     }
 
 
-    public static Map<Room, Integer> readFileRoom() {
-        Map<Room, Integer> myRoomList = new LinkedHashMap<>();
+    public static Map<Falicity, Integer> readFilrFacility() {
+        Map<Falicity, Integer> myFacilityList = new LinkedHashMap<>();
         FileReader fileReader;
         BufferedReader bufferedReader = null;
         try {
-            fileReader = new FileReader(PATH_ROOM);
+            fileReader = new FileReader(PATH_FACILITY);
             bufferedReader = new BufferedReader(fileReader);
-            String line;
+            String line = null;
             String arr[];
-            Room room;
-
+            Falicity falicity;
             while ((line = bufferedReader.readLine()) != null) {
                 arr = line.split(",");
-                String serviceName = arr[0];
-                String usableArea = arr[1];
-                String price = arr[2];
-                String peopleMaximum = arr[3];
-                String rentalType = arr[4];
-                String accompaniedServiceFree = arr[5];
+                if (arr.length == 6) {
+                    String serviceName = arr[0];
+                    String usableArea = arr[1];
+                    String price = arr[2];
+                    String peopleMaximum = arr[3];
+                    String rentalType = arr[4];
+                    String accompaniedServiceFree = arr[5];
 
-                room = new Room(serviceName, usableArea, price, peopleMaximum, rentalType, accompaniedServiceFree);
-                myRoomList.put(room, 0);
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                bufferedReader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return myRoomList;
-    }
+                    falicity = new Room(serviceName,usableArea,price,peopleMaximum,rentalType,accompaniedServiceFree) ;
+                    myFacilityList.put(falicity,0);
 
-
-    public static Map<Villa, Integer> readFileVilla() {
-        Map<Villa, Integer> myVillaList = new LinkedHashMap<>();
-        FileReader fileReader;
-        BufferedReader bufferedReader = null;
-        try {
-            fileReader = new FileReader(PATH_VILLA);
-            bufferedReader = new BufferedReader(fileReader);
-            String line;
-            String arr[];
-            Villa villa;
-
-            while ((line = bufferedReader.readLine()) != null) {
-                arr = line.split(",");
-                String serviceName = arr[0];
+                }
+                if (arr.length == 8){
+                    String serviceName = arr[0];
                 String usableArea = arr[1];
                 String price = arr[2];
                 String peopleMaximum = arr[3];
@@ -169,22 +144,94 @@ public class ReadFile {
                 String swimmingArea = arr[6];
                 String numFloors = arr[7];
 
-                villa = new Villa(serviceName, usableArea, price, peopleMaximum, rentalType, standard, swimmingArea, numFloors);
-                myVillaList.put(villa, 0);
+                falicity = new Villa(serviceName,usableArea,price,peopleMaximum,rentalType,standard,swimmingArea,numFloors);
+                myFacilityList.put(falicity,0);
+                }
+
             }
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                bufferedReader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
-        return myVillaList;
+        return myFacilityList;
     }
+//    public static Map<Room, Integer> readFileRoom() {
+//        Map<Room, Integer> myRoomList = new LinkedHashMap<>();
+//        FileReader fileReader;
+//        BufferedReader bufferedReader = null;
+//        try {
+//            fileReader = new FileReader(PATH_ROOM);
+//            bufferedReader = new BufferedReader(fileReader);
+//            String line;
+//            String arr[];
+//            Room room;
+//
+//            while ((line = bufferedReader.readLine()) != null) {
+//                arr = line.split(",");
+//                String serviceName = arr[0];
+//                String usableArea = arr[1];
+//                String price = arr[2];
+//                String peopleMaximum = arr[3];
+//                String rentalType = arr[4];
+//                String accompaniedServiceFree = arr[5];
+//
+//                room = new Room(serviceName, usableArea, price, peopleMaximum, rentalType, accompaniedServiceFree);
+//                myRoomList.put(room, 0);
+//            }
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                bufferedReader.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//        return myRoomList;
+//    }
+//
+//
+//    public static Map<Villa, Integer> readFileVilla() {
+//        Map<Villa, Integer> myVillaList = new LinkedHashMap<>();
+//        FileReader fileReader;
+//        BufferedReader bufferedReader = null;
+//        try {
+//            fileReader = new FileReader(PATH_VILLA);
+//            bufferedReader = new BufferedReader(fileReader);
+//            String line;
+//            String arr[];
+//            Villa villa;
+//
+//            while ((line = bufferedReader.readLine()) != null) {
+//                arr = line.split(",");
+//                String serviceName = arr[0];
+//                String usableArea = arr[1];
+//                String price = arr[2];
+//                String peopleMaximum = arr[3];
+//                String rentalType = arr[4];
+//                String standard = arr[5];
+//                String swimmingArea = arr[6];
+//                String numFloors = arr[7];
+//
+//                villa = new Villa(serviceName, usableArea, price, peopleMaximum, rentalType, standard, swimmingArea, numFloors);
+//                myVillaList.put(villa, 0);
+//            }
+//
+//
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                bufferedReader.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//        return myVillaList;
+//    }
 }

@@ -20,8 +20,8 @@ public class CustomerController {
                     "4.Return main menu (4.Trở lại menu chính)");
             try {
                 menu2 = Integer.parseInt(sc.nextLine());
-            }catch (NumberFormatException e ){
-                e.printStackTrace();
+            } catch (NumberFormatException e) {
+                System.err.println("NumberFormatException");
             }
 
 
@@ -60,7 +60,14 @@ public class CustomerController {
                             "4.Silver\n" +
                             "5. Member");
                     String newCustomerType = "";
-                    int choiceCustomer = Integer.parseInt(sc.nextLine());
+                    int choiceCustomer = 0;
+                    try {
+                        choiceCustomer = Integer.parseInt(sc.nextLine());
+                    } catch (NumberFormatException e) {
+                        System.err.println("Vui lòng nhập lại lựa chọn!");
+
+                    }
+
                     switch (choiceCustomer) {
                         case 1:
                             newCustomerType = "Diamond";
@@ -117,7 +124,7 @@ public class CustomerController {
 
 //                    c2
                     List<Customer> customerList = customerService.findAll();
-                    for (int i = 0; i <customerList.size() ; i++) {
+                    for (int i = 0; i < customerList.size(); i++) {
                         System.out.println(customerList.get(i));
                     }
 
@@ -130,9 +137,9 @@ public class CustomerController {
                         }
                     }
 
-                    if (y!=null){
+                    if (y != null) {
 
-                    int choiceEdit;
+                        int choiceEdit=0;
 //                        Customer customer2 = new Customer();
 
                         do {
@@ -147,8 +154,12 @@ public class CustomerController {
                             System.out.println("8.Lever khách hàng");
                             System.out.println("9.Địa chỉ khách hàng");
                             System.out.println("10.Thoát chọn");
+                            try {
+                                choiceEdit = Integer.parseInt(sc.nextLine());
+                            } catch (NumberFormatException e) {
+                                System.err.println("Vui lòng nhập lại lựa chọn!");;
+                            }
 
-                            choiceEdit = Integer.parseInt(sc.nextLine());
 
                             switch (choiceEdit) {
 
@@ -242,18 +253,17 @@ public class CustomerController {
 
                         } while (choiceEdit != 10);
 
-                         customerService.edit(y);
+                        customerService.edit(y);
 
 
+                    } else {
+                        System.err.println("Thông tin sai hoặc không tồn tại!");
+                    }
+                default:
+                    System.err.println("-------Vui lòng nhập lại lựa chọn---------");
 
-            } else{
-                System.out.println("Thông tin sai hoặc không tồn tại!");
             }
-            default:
-                System.out.println("-------Vui lòng nhập lại lựa chọn---------");
 
-        }
-
-    } while(menu2 !=4);
-}
+        } while (menu2 != 4);
+    }
 }

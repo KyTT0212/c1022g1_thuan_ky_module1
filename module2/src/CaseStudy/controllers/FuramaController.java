@@ -24,7 +24,7 @@ public class FuramaController {
             try {
                 menu = Integer.parseInt(sc.nextLine());
             }catch (NumberFormatException e){
-                e.printStackTrace();
+                System.err.println("Vui lòng nhập số!");;
             }
 
             switch (menu) {
@@ -47,9 +47,12 @@ public class FuramaController {
 
 
 
+                case 6:
+                    System.err.println("------Kết thúc!-------" );
+                    break;
 
                 default:
-                    System.out.println("--------Vui lòng nhập lại lựa chọn----------");
+                    System.err.println("--------Vui lòng nhập lại lựa chọn----------");
                     break;
 
             }

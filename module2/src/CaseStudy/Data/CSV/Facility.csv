@@ -1,0 +1,7 @@
+Room{accompaniedServiceFree='4'} Facility{serviceName='1', usableArea=4, price=4, peopleMaximum=4, rentalType='4'},4
+Room{accompaniedServiceFree='4'} Facility{serviceName='Room{accompaniedServiceFree='4'} Facility{serviceName='1'', usableArea= usableArea=4, price= price=4, peopleMaximum= peopleMaximum=4, rentalType=' rentalType='4'}'},0
+Villa{standard='sdef', swimmingArea='sdf', numFloors=qedf} Facility{serviceName='s', usableArea=f, price=vds, peopleMaximum=ad, rentalType='ưdf'},8
+Room{accompaniedServiceFree='4'} Facility{serviceName='Room{accompaniedServiceFree='4'} Facility{serviceName='1'', usableArea= usableArea=4, price= price=4, peopleMaximum= peopleMaximum=4, rentalType=' rentalType='4'}'},0
+Room{accompaniedServiceFree='0'} Facility{serviceName='Room{accompaniedServiceFree='4'} Facility{serviceName='Room{accompaniedServiceFree='4'} Facility{serviceName='1''', usableArea= usableArea= usableArea=4, price= price= price=4, peopleMaximum= peopleMaximum= peopleMaximum=4, rentalType=' rentalType=' rentalType='4'}'}'},0
+Villa{standard=' peopleMaximum=ad', swimmingArea=' rentalType='ưdf'}', numFloors=8} Facility{serviceName='Villa{standard='sdef'', usableArea= swimmingArea='sdf', price= numFloors=qedf} Facility{serviceName='s', peopleMaximum= usableArea=f, rentalType=' price=vds'},0
+Villa{standard='s', swimmingArea='s', numFloors=s} Facility{serviceName='a', usableArea=a, price=s, peopleMaximum=s, rentalType='s'},5

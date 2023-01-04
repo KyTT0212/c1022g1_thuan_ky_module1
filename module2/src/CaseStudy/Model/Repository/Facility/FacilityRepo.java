@@ -1,5 +1,7 @@
 package CaseStudy.Model.Repository.Facility;
 
+import CaseStudy.Data.ReadFile;
+import CaseStudy.Data.WriteFile;
 import CaseStudy.Model.model.Facility.Falicity;
 import CaseStudy.Model.model.Facility.Room;
 import CaseStudy.Model.model.Facility.Villa;
@@ -25,10 +27,10 @@ public class FacilityRepo implements IFacilityRepo {
     public void displayList() {
         for (Map.Entry<Falicity, Integer> dispalyList1 : furuma.entrySet()) {
             System.out.println(dispalyList1);
-        }
+        }furuma = ReadFile.readFilrFacility();
         for (Map.Entry<Falicity, Integer> displayList2 : furumaMaintenance.entrySet()) {
             System.out.println(displayList2);
-        }
+        }furumaMaintenance = ReadFile.readFilrFacility();
     }
 
 
@@ -36,8 +38,11 @@ public class FacilityRepo implements IFacilityRepo {
     public void add(Falicity falicity1, int number) {
         if (number<5) {
             furuma.put(falicity1, number);
-        } else {
+            WriteFile.writeFaculity(furuma);
+        }
+        else {
             furumaMaintenance.put(falicity1, number);
+            WriteFile.writeFaculity(furumaMaintenance);
         }
     }
 

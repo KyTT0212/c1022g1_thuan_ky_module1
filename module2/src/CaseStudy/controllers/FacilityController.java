@@ -45,42 +45,60 @@ public class FacilityController {
                                     do {
                                         System.out.println("Nhập tên dịch vụ");
                                         roomServiceName = sc.nextLine();
-                                    }while (roomServiceName.matches(RegexExpression.REGEX_SERVICEROOM));
+                                        if (!roomServiceName.matches(RegexExpression.REGEX_SERVICEROOM)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomServiceName.matches(RegexExpression.REGEX_SERVICEROOM));
 
 
                                     String roomUsableArea;
                                     do {
                                         System.out.println("Nhập diện tích sử dụng");
                                         roomUsableArea =sc.nextLine();
-                                    }while (roomUsableArea.matches(RegexExpression.REGES_USABLEAREA));
+                                        if (!roomUsableArea.matches(RegexExpression.REGES_USABLEAREA)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomUsableArea.matches(RegexExpression.REGES_USABLEAREA));
 
 
                                     String roomPrice;
                                     do {
                                         System.out.println("Nhập chi phí");
                                         roomPrice = sc.nextLine();
-                                    }while (roomPrice.matches(RegexExpression.REGES_PRICE));
+                                        if (!roomPrice.matches(RegexExpression.REGES_PRICE)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomPrice.matches(RegexExpression.REGES_PRICE));
 
 
                                     String rooomPeopleMaximum;
                                     do {
                                         System.out.println("Nhập số lượng người tối đa");
                                         rooomPeopleMaximum = sc.nextLine();
-                                    }while (roomPrice.matches(RegexExpression.REGES_PEOPLEMAXIMUM));
+                                        if (!roomPrice.matches(RegexExpression.REGES_PEOPLEMAXIMUM)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomPrice.matches(RegexExpression.REGES_PEOPLEMAXIMUM));
 
 
                                     String roomRentalType;
                                     do {
                                         System.out.println("Nhập kiểu thuê");
                                         roomRentalType = sc.nextLine();
-                                    }while (roomRentalType.matches(RegexExpression.REGEX_RENTALTYPE));
+                                        if (!roomRentalType.matches(RegexExpression.REGEX_RENTALTYPE)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomRentalType.matches(RegexExpression.REGEX_RENTALTYPE));
 
 
                                     String roomAccompaniedServiceFree;
                                     do {
                                         System.out.println("Nhập dịch vụ miễn phí đi kèm");
                                         roomAccompaniedServiceFree = sc.nextLine();
-                                    }while (roomAccompaniedServiceFree.matches(RegexExpression.REGEX_SERVICENAME));
+                                        if (!roomAccompaniedServiceFree.matches(RegexExpression.REGEX_SERVICENAME)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!roomAccompaniedServiceFree.matches(RegexExpression.REGEX_SERVICENAME));
 
 
                                     System.out.println("Nhập số lần đã sử dụng");
@@ -95,56 +113,81 @@ public class FacilityController {
                                     do {
                                         System.out.println("Nhập tên dịch vụ");
                                         villaServiceName = sc.nextLine();
-                                    }while (villaServiceName.matches(RegexExpression.REGEX_SERVICEVILLA));
+                                        if (!villaServiceName.matches(RegexExpression.REGEX_SERVICEVILLA)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaServiceName.matches(RegexExpression.REGEX_SERVICEVILLA));
 
 
                                     String villaUsableArea;
                                     do {
                                         System.out.println("Nhập diện tích sử dụng");
                                         villaUsableArea =sc.nextLine();
-                                    }while (villaUsableArea.matches(RegexExpression.REGES_USABLEAREA));
+                                        if (!villaUsableArea.matches(RegexExpression.REGES_USABLEAREA)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaUsableArea.matches(RegexExpression.REGES_USABLEAREA));
 
 
                                     String villaPrice;
                                     do {
                                         System.out.println("Nhập chi phí");
                                         villaPrice = sc.nextLine();
-                                    }while (villaPrice.matches(RegexExpression.REGES_PRICE));
+                                        if (!villaPrice.matches(RegexExpression.REGES_PRICE)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaPrice.matches(RegexExpression.REGES_PRICE));
 
 
                                     String villaPeopleMaximum;
                                     do {
                                         System.out.println("Nhập số lượng người tối đa");
                                         villaPeopleMaximum = sc.nextLine();
-                                    }while (villaPeopleMaximum.matches(RegexExpression.REGES_PEOPLEMAXIMUM));
+                                        if (!villaPeopleMaximum.matches(RegexExpression.REGES_PEOPLEMAXIMUM)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaPeopleMaximum.matches(RegexExpression.REGES_PEOPLEMAXIMUM));
 
 
                                     String villaRentalType;
                                     do {
                                         System.out.println("Nhập kiểu thuê");
                                         villaRentalType = sc.nextLine();
-                                    }while (villaRentalType.matches(RegexExpression.REGEX_RENTALTYPE));
+                                        if (!villaRentalType.matches(RegexExpression.REGEX_RENTALTYPE)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaRentalType.matches(RegexExpression.REGEX_RENTALTYPE));
 
 
                                     String villaStandard;
                                     do {
                                         System.out.println("Nhập tiêu chuẩn phòng");
                                         villaStandard = sc.nextLine();
-                                    }while (villaStandard.matches(RegexExpression.REGEX_STANDARD));
+                                        if (!villaStandard.matches(RegexExpression.REGEX_STANDARD)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaStandard.matches(RegexExpression.REGEX_STANDARD));
 
 
-                                    String villaSwimmingArea;
+                                    String villaSwimmingArea ;
                                     do {
                                         System.out.println("Nhập diện tích hồ bơi");
-                                        villaSwimmingArea = sc.nextLine();
-                                    }while (villaSwimmingArea.matches(RegexExpression.REGES_SWIMMINGAREA));
+                                        villaSwimmingArea = sc.nextLine() ;
+                                        if (!villaSwimmingArea.matches(RegexExpression.REGES_SWIMMINGAREA)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaSwimmingArea.matches(RegexExpression.REGES_SWIMMINGAREA));
 
 
                                     String villaNumFloors;
                                     do {
                                         System.out.println("Nhập số tầng");
                                         villaNumFloors = sc.nextLine();
-                                    }while (villaNumFloors.matches(RegexExpression.REGEX_NUMFLOORS));
+                                        if (!villaNumFloors.matches(RegexExpression.REGEX_NUMFLOORS)){
+                                            System.err.println("Vui lòng nhập lại!");
+                                        }
+                                    }while (!villaNumFloors.matches(RegexExpression.REGEX_NUMFLOORS));
+
 
                                     System.out.println("Nhập số lần đã sử dụng");
                                     int numberVL = Integer.parseInt(sc.nextLine());
