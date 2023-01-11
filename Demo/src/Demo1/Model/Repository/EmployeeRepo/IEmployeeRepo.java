@@ -1,6 +1,6 @@
-package Model.Repository.EmployeeRepo;
+package Demo1.Model.Repository.EmployeeRepo;
 
-import Model.Model.Person.Employee;
+import Demo1.Model.Model.Person.Employee;
 
 public interface IEmployeeRepo {
     void list();

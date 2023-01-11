@@ -1,4 +1,4 @@
-package Model.Model.Facility;
+package Demo1.Model.Model.Facility;
 
 public class Villa extends Facility{
     private String tieuChuanPhong;

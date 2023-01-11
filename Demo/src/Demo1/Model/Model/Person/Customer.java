@@ -1,4 +1,4 @@
-package Model.Model.Person;
+package Demo1.Model.Model.Person;
 
 public class Customer extends Person{
     private String loaiKhach;

@@ -1,7 +1,7 @@
-package Controllor;
+package Demo1.Controllor;
 
-import Model.Model.Person.Employee;
-import Model.Service.Employee.EmployeeService;
+import Demo1.Model.Model.Person.Employee;
+import Demo1.Model.Service.Employee.EmployeeService;
 
 import java.util.Scanner;
 

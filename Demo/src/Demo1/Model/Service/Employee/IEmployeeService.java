@@ -1,6 +1,6 @@
-package Model.Service.Employee;
+package Demo1.Model.Service.Employee;
 
-import Model.Model.Person.Employee;
+import Demo1.Model.Model.Person.Employee;
 
 public interface IEmployeeService {
     void list();
