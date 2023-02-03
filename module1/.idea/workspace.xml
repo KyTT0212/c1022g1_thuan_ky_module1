@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82c3439-0933-4be9-b8ef-1af496e52fe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/luyen_tap/p3/bai19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luyen_tap/p3/bai20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module2/src/hien_thi_loi_chao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ 6._CSS_cascading_style_stylesheet/dinh_dang_van_ban_voi_css/dinh_dang_van_ban_voi_css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ 6._CSS_cascading_style_stylesheet/nhung_css_vao_trang_html/nhung_css_vao_trang_html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ 6._CSS_cascading_style_stylesheet/nhung_css_vao_trang_html/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module3/ss6_css_cascading_style_stylesheet/nhung_css_vao_trang_html/nhung_css_vao_trang_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module3/ss6_css_cascading_style_stylesheet/nhung_css_vao_trang_html/nhung_css_vao_trang_html.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML4 File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -40,7 +38,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CASE STUDY/task5/bai1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module3/ss6_css_cascading_style_stylesheet/nhung_css_vao_trang_html/nhung_css_vao_trang_html.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\module1\ 6._CSS_cascading_style_stylesheet\nhung_css_vao_trang_html" />
       <recent name="D:\codegym\module1\thi_cuoi_module1" />
       <recent name="D:\codegym\module1\PSEUDO CODE &amp; FLOWCHAT\bai tap 4" />
     </key>
@@ -84,12 +84,12 @@
       <item itemvalue="JavaScript Debug.02_bai5.html" />
       <item itemvalue="JavaScript Debug.02_bai9.html" />
       <item itemvalue="JavaScript Debug.aaa.html" />
+      <item itemvalue="JavaScript Debug.viet_ham_mang_chan_tra_ve_1.html" />
       <item itemvalue="JavaScript Debug.bai15-1.html" />
       <item itemvalue="JavaScript Debug.bai1.html" />
       <item itemvalue="JavaScript Debug.bai2.html" />
       <item itemvalue="JavaScript Debug.bai3.html" />
       <item itemvalue="JavaScript Debug.bai6.html" />
-      <item itemvalue="JavaScript Debug.viet_ham_mang_chan_tra_ve_1.html" />
     </list>
     <recent_temporary>
       <list>
@@ -157,6 +157,7 @@
       <workItem from="1669885610505" duration="593000" />
       <workItem from="1669907635566" duration="222000" />
       <workItem from="1669955298626" duration="1000" />
+      <workItem from="1675388390606" duration="11731000" />
     </task>
     <servers />
   </component>
@@ -183,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="294" y="64" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1668854003794" />
-    <state x="406" y="299" key="FileChooserDialogImpl" timestamp="1669361947247">
+    <state x="406" y="299" key="FileChooserDialogImpl" timestamp="1675416646827">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="406" y="299" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1669361947247" />
+    <state x="406" y="299" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675416646827" />
     <state width="680" height="200" key="GridCell.Tab.0.bottom" timestamp="1669776758826">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -279,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="718" y="198" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1668229352606" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1668581864620">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1675389492386">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1668581864620" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1675389492386" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
