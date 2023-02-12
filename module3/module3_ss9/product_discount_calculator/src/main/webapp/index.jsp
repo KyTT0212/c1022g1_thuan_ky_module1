@@ -20,7 +20,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<form action="/ProductDiscountCalculator" method="post">
+<form action="/product-discount" method="post">
   <div class="form-group">
     <label for="product-description">Product Description (Mô tả của sản phẩm)</label>
     <input type="text"
